@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>TEDxKIITUniversity</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description"
+      content="TEDxKIITUniversity is aimed to provide a first-hand TED experience to its attendees. It offers a platform to integrate new people into the TED community which helps them to bridge the gap between ideas and actions. At TEDxKIITUniversity, we firmly believe that it is imperative for the adolescents of Generation Z to be able to think on their feet and not get caught up in a realm comprising of what-ifs and should-haves.We must put our best foot forward ornamented with consistent efforts and knowledge in the right time to create a positive impact within our fraternity. Through “Right Angle Of The Clock”, we advocate the fact that we must be responsible enough for our actions and not propagate nihilism by waiting for things to happen. Instead, we must be quick and responsive and be able to tackle whatever befalls without deliberate excuses.">
+   <meta name="keywords"
+      content="TEDxKIITUniversity,TedxKiit,Tedxkiit,tedxkiit,TEDx,Tedx,tedx,TEDX,KIIT,kiitedx,tedkiit,,tedx kiit 2021,,tedx 2021,Tedx 2021,TEDx 2021,tedx kiittedxkiitu,tedtalks,ted,talks,Right angle of the clock,angle of clock">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Hind Font -->
+   <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+   <!-- Bootstrap core CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- Material Design Bootstrap -->
+   <link href="css/mdb.min.css" rel="stylesheet">
+   <!-- Your custom styles (optional) -->
+   <link href="css/style.css" rel="stylesheet">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+   <!-- Animation -->
+   <link rel="stylesheet" href="css/animations.css" type="text/css">
+   <link rel="icon" href="images/iconlogo.png">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160717844-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160717844-1');
+   </script>
+   <!-- Back to top button -->
+   <a id="button"></a>
+   <!-- back to top -->
+   <style>
+      .regis {
+         background-color: #f44336;
+      }
+
+      .regis:hover {
+         background-color: #000;
+      }
+
+      .btn {
+         background-color: #f44336;
+      }
+
+      .btn:hover {
+         background-color: #000;
+      }
+
+      #button {
+         display: inline-block;
+         background-color: #f44336;
+         width: 40px;
+         height: 40px;
+         text-align: center;
+         border-radius: 4px;
+         position: fixed;
+         bottom: 15px;
+         right: 15px;
+         transition: background-color .3s,
+            opacity .5s, visibility .5s;
+         opacity: 0;
+         visibility: hidden;
+         z-index: 1000;
+      }
+
+      #button::after {
+         content: "\f077";
+         font-family: FontAwesome;
+         font-weight: normal;
+         font-style: normal;
+         font-size: 2em;
+         line-height: 40px;
+         color: #fff;
+      }
+
+      #button:hover {
+         cursor: pointer;
+         background-color: #333;
+      }
+
+      #button:active {
+         background-color: #D3D3D3;
+      }
+
+      #button.show {
+         opacity: 1;
+         visibility: visible;
+      }
+
+      .ted2021Intro {
+         padding-top: 50px;
+         margin-bottom: 50px;
+         margin-left: 50px;
+         margin-right: 50px;
+      }
+
+      .ted2022 {
+         margin: 50px;
+      }
+
+      /* #theme
+         {
+         padding:50px;
+         } */
+      .Team2022 {
+         padding-top: 20px;
+         margin: 50px;
+      }
+
+      .Team2023 {
+         padding-top: 20px;
+         margin: 50px;
+      }
+
+      #ContactUs {
+         padding-top: 20px;
+      }
+
+      .map-container-7 {
+         overflow: hidden;
+         padding-bottom: 30%;
+         position: relative;
+         height: 0;
+      }
+
+      .map-container-7 iframe {
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         position: absolute;
+      }
+
+      .counter {
+         padding-top: 50px;
+         padding-bottom: 25px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+      }
+
+      .counter h1 {
+         color: #fff;
+         font-weight: 600;
+         font-size: 45px;
+         padding-top: 15px;
+         margin-bottom: 10px;
+      }
+
+      #clockdiv {
+         font-family: sans-serif;
+         color: #fff;
+         display: inline-block;
+         font-weight: 600;
+         text-align: center;
+         font-size: 30px;
+         padding-top: 20px;
+      }
+
+      #clockdiv>div {
+         padding-left: 15px;
+         border-radius: 3px;
+         background: #000;
+         display: inline-block;
+      }
+
+      #clockdiv div>span {
+         padding-left: 15px;
+         border-radius: 3px;
+         background: #000;
+         display: inline-block;
+      }
+
+      smalltext {
+         padding-left: 15px;
+         font-size: 30px;
+      }
+
+      /* Dropdown Button */
+      .dropbtn {
+         background-color: #000;
+         color: white;
+         padding: 0px;
+         font-size: 16px;
+         border: none;
+      }
+
+      /* The container 
+         <div>
+         - needed to position the dropdown content */
+      .dropdown {
+         position: relative;
+         display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 100px;
+         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+         z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+         color: black;
+         padding: 10px 20px;
+         text-decoration: none;
+         display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+         background-color: #f44336;
+      }
+
+      .dropdown-item:hover {
+         background-color: #f44336;
+      }
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+         display: block;
+      }
+
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {
+         background-color: #000;
+      }
+      .sponsers-2023{
+         background-color:black;
+         width:100%;
+         padding:2rem;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         height:100%;
+      }
+      .titleSponsers{
+   max-width: 100%;
+         display:flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+      }
+      .titleSponsers-logos{
+         padding:0.75rem;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         width: inherit;
+         text-align: center;      
+      }
+      .titleSponsers-logos a{
+         text-decoration: none;
+         font-size:0.7rem;
+         color:white;
+         margin:1rem;
+         width:8rem;
+         line-height: 1.2rem;
+      }
+      .titleSponsers-logos img{
+         width:10rem;
+         height:10rem;
+         display: flex;
+         align-items: center;
+         /* justify-content: center; */
+      }
+   
+      @media(min-width:990px) {
+         .dropdown-content {
+            right: -10px;
+         }
+      }
+      @media(max-width:720px){
+         .titleSponsers{
+            flex-direction: column;
+         }
+         .titleSponsers-logos{
+            height: 210px;
+         }
+      }
+
+      @media(max-width:1107px){
+         .titleSponsers-logos{
+            height: 210px;
+
+         }
+      }
+
+      @media(min-width:1080px) {
+         .dropdown-content {
+            right: -10px;
+         }
+      }
+
+      @media(min-width:1220px) {
+         .dropdown-content {
+            right: -90px;
+         }
+      }
+
+      @media(max-width:375px) {
+         .ted2021Intro {
+            padding-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .Team2021 {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .ContactUs {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+      }
+
+      @media(max-width:410px) {
+         .min {
+            margin-right: 50px !important;
+         }
+
+         .sec {
+            margin-left: 42px !important;
+         }
+      }
+
+      @media(max-width:414px) {
+         .ted2021Intro {
+            padding-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .Team2021 {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .ContactUs {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+      }
+
+      @media(max-width:430px) {
+         .min {
+            margin-left: 42px !important;
+         }
+      }
+
+      @media(max-width:480px) {
+         .ted2021Intro {
+            padding-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .Team2021 {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .ContactUs {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+      }
+
+      @media(max-width:640px) {
+         .sec {
+            margin-right: 50px !important;
+         }
+      }
+
+      @media(max-width:320px) {
+         .ted2021Intro {
+            padding-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .Team2021 {
+            margin-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+
+         .ContactUs {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+      }
+   </style>
+   <!-- Facebook Pixel Code -->
+   <script>
+      !function (f, b, e, v, n, t, s) {
+         if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+               n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+         };
+         if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+         n.queue = []; t = b.createElement(e); t.async = !0;
+         t.src = v; s = b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '295654995238689');
+      fbq('track', 'PageView');
+   </script>
+   <noscript>
+      <img height="1" width="1" src="https://www.facebook.com/tr?id=295654995238689&ev=PageView
+            &noscript=1" />
+   </noscript>
+   <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+   <!--Navbar-->
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black !important;">
+      <a class="navbar-brand px-lg-4 mr-0  black-text d-none d-sm-block" href="index.html"><img src="images/logo.png"
+            height="50" alt="" style="position:relative;top:-5px;">
+         <a class="navbar-brand px-lg-4 mr-0  black-text d-block d-sm-none" href="index.html"><img src="images/logo.png"
+               height="30" alt="" style="position:relative;top:-5px;">
+            <br><span class="fsb font-weight-bold" style="font-family: 'Hind'semi-bold;"></a></span>
+         <!-- Collapse button -->
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Collapsible content -->
+         <div class="collapse navbar-collapse justify-content-center font-weight-bold" id="basicExampleNav">
+            <!-- Links -->
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;padding-right:20px;color:#ffffff;" href="./aboutus.html"
+                     onMouseOver="this.style.color='#f44336'" onMouseOut="this.style.color='#fff'"><span class="fsb nb"
+                        style="font-family: 'Hind',semi-bold;font-size: 16px;">ABOUT</span></a>
+               </li>
+               <!-- <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;padding-right:20px;color:#ffffff;" href="#ted2022"
+                     onMouseOver="this.style.color='#f44336'" onMouseOut="this.style.color='#fff'"><span class="fsb nb"
+                        style="font-family: 'Hind',semi-bold;font-size: 16px;">TEDx 2023</span></a>
+               </li> -->
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;padding-right:20px;color:#ffffff;"
+                     href="./PreviousSpeakers.html" onMouseOver="this.style.color='#f44336'"
+                     onMouseOut="this.style.color='#fff'"><span class="fsb nb"
+                        style="font-family: 'Hind',semi-bold;font-size: 16px;">PREVIOUS&nbsp; EDITIONS</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;padding-right:20px;color:#ffffff;" href="#ContactUs"
+                     onMouseOver="this.style.color='#f44336'" onMouseOut="this.style.color='#fff'"><span class="fsb nb"
+                        style="font-family: 'Hind',semi-bold;font-size: 16px;">CONTACT US</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;color:#ffffff;"
+                     href="https://docs.google.com/forms/d/e/1FAIpQLSc8eSDpATUzNralPX0PGAWhs5ZQ6buZ6ABQKIBQz7RNd5TMfg/viewform?usp=sharing"
+                     onMouseOver="this.style.color='#f44336'" onMouseOut="this.style.color='#fff'"><span class="fsb nb"
+                        style="font-family: 'Hind',semi-bold;font-size: 16px;">REGISTER NOW</span></a>
+               </li>
+            </ul>
+         </div>
+   </nav>
+   <!--/.Navbar-->
+   <!-- carousal -->
+   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img class="d-block w-100" src="images/1.jpg" height="auto" alt="First slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/2.jpg" height="auto" alt="Second slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/3.jpg" height="auto" alt="Third slide">
+         </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+      </a>
+   </div>
+   <!-- carousal -->
+   <!-- Notice -->
+
+   <!-- <section id="notice" style="background:#000;">
+      <div class="col-md-12 pt-5">
+         <marquee width="100%" direction="left">
+         	<h1 class="white-text">Coming Soon! Stay Tuned for updates</h>
+         </marquee>
+         <h1 class=" text-center white-text display-5" style="padding-top:40px;">30<sup>th</sup> APRIL, 2023</h1>
+      </div>
+   </section>  -->
+
+   <!-- Notice -->
+   <!-- Timer -->
+   <header class="counter" style="background:#000;">
+      <img src="./images/DateReveal.png" style="max-width: 100%;" alt="">
+      <!-- <center>
+         <div id="clockdiv">
+            <div class="hr" style="border: 3px solid #f44336;padding-right: 10px;padding-left: 0px;margin-left: 10px;margin-right: 10px;">
+               <div id="" style="padding: 20px;">THE WAIT IS OVER...</div>
+               
+            </div>
+     
+            <br>
+            <h1 class=" text-center white-text display-5" style="padding-top:40px;">30<sup>th</sup> April,  2023</h1>
+         </div>
+      </center> -->
+      <!-- arrow -->
+      <section id="arr" style="background:#000;">
+         <div class="col-md-01 arrow bounce"></div>
+      </section>
+      <!-- arrow -->
+
+   </header>
+
+   <!-- Timer -->
+   <header class="counter" style="background:#000;">
+      <center>
+         <div id="clockdiv">
+            <div class="hr"
+               style="border: 3px solid #f44336;padding-right: 10px;padding-left: 0px;margin-left: 10px;margin-right: 10px;">
+               <div id="day"></div>
+               <div class="smalltext" id="smalltext" style="padding:10px;">DAYS</div>
+            </div>
+            <div class="hr" id="h"
+               style="border: 3px solid #f44336;padding-right: 10px;padding-left: 0px;margin-left: 10px;margin-right: 10px;">
+               <div id="hour"></div>
+               <div class="smalltext" style="padding:10px;">HOURS</div>
+            </div>
+            <div class="hr" id="m"
+               style="border: 3px solid #f44336;padding-right: 10px;padding-left: 0px;margin-left: 10px;margin-right: 10px;">
+               <div id="minute"></div>
+               <div class="smalltext" style="padding:10px;">MINUTES</div>
+            </div>
+            <div class="hr" id="s"
+               style="border: 3px solid #f44336;padding-right: 10px;padding-left: 0px;margin-left: 10px;margin-right: 10px;">
+               <div id="second"></div>
+               <div class="smalltext" style="padding:10px;">SECONDS</div>
+            </div>
+            <br>
+         </div>
+      </center>
+      <!-- Timer -->
+
+      </nav>
+   </header>
+
+   </div>
+   <!-- chnages made by anshul -->
+   <section id="ted2022" style="margin-top:120px;">
+      <div class="ted2022Intro">
+         <h1 class=" text-center black-text display-5" style="margin:0px;">TEDxKIITUniversity 2023</h1>
+         <hr width="16%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+         </hr>
+         <div class="row pb-4 px-5 pt-5">
+            <div class="col-md-6 pr-0">
+               <h5 class="font-weight-bold">
+                  Overview:</h4>
+                  <!-- <p class="font-weight-bold" style="text-align:justify">Anthesis: Awakening your Ambition</p> -->
+                  <br>
+                  <p style="text-align:justify">
+                     The immense power of an idea can act as a catalyst for change in the world by sowing the seed of
+                     influence. These views encourage us to be bold and challenge conventional wisdom by contesting the
+                     notions of finite knowledge. The firm beliefs resemble the woven webs of fragile but rejuvenating
+                     dreams. The time has come for us to pursue our goals without fear, work together, and focus our
+                     minds towards unleashing a creative and imaginative surge that will help reshape the world for the
+                     greater good. To accomplish this goal, we must come together as individuals to learn more about
+                     inspirational stories and revolutionary ideas facilitated by a common platform inspired by TED.
+                     TEDxKIITUniversity is a local community that welcomes people from every discipline and culture who
+                     seek a deeper understanding of the world, regardless of their profession or cultural background. We
+                     are dedicated to bridging the conceptual and practical divisions by igniting dialogue and
+                     empowering one another. We adhere to the same principles as TED, expanding to include technology,
+                     entertainment, and design. We firmly believe in the capacity of ideas to transform perspectives,
+                     ways of life, and consequently the destiny of the world, in accordance with TED’s motto of ‘great
+                     ideas accessible’.
+                  </p>
+                  <br>
+            </div>
+            <div class="col-md-6 pt-5">
+               <p style="text-align:justify">
+                  Having established a beautiful legacy with the past six successful editions, we are pacing forth with
+                  our resolution, consistency, and enthusiasm as the driving force. This year, for our seventh edition,
+                  we have come up with the theme, ‘Anthesis: Awaken your ambition’. Through this motif, we seek to
+                  emphasise the moments that can change an individual and initiate the blossoming phase, just as an
+                  insignificant bud nurtures to grow into a beautiful flower, resonating with how the smallest of ideas
+                  can initiate the birth of positive change and growth in this world. Dreams and ambitions power us and
+                  drive us to work hard, pushing us towards inevitable success. When persistence, determination, and
+                  careful nurturing meet ambition, an individual undergoes anthesis, blossoming into the world and
+                  leaving a lasting impression as someone who can believe, achieve, and inspire.
+               </p>
+            </div>
+
+         </div>
+         <div class="row pb-4 px-5 pt-5">
+            <div class="col-md-6 pr-0">
+               <h5 class="font-weight-bold">
+                  Theme:</h5>
+               <p class="font-weight-bold" style="text-align:justify">Anthesis: Awakening your Ambition</p>
+               <br>
+               <p style="text-align:justify">Have you ever seen a little child: walking those first steps, stuttering
+                  that first word, or learning to play and run as they grow? Isn’t that a beautiful journey an
+                  individual undertakes from being a meagre, tiny embryo, sheltered and nurtured inside their mother’s
+                  womb, through birth and life? Life-changing moments never cease to enthrall us, just as how alluring
+                  it is when a bud blossoms into a flower. Anthesis, the miracle of a single flower as it blooms against
+                  all odds, embracing fulfillment and beauty, signifies the decree of nature, renewal, evolution, and
+                  optimism.
+                  Much like a plant that can thrive in even the harshest situations, a person can find courage and
+                  resilience amid countless adversities and emerge stronger and brighter, embodying hope. A celebration
+                  of the potential for growth and the magnificence that results from the struggle, through anthesis, we
+                  may be the change that can inspire others to share their stories and ideas with the world. It serves
+                  as a reminder that change and progress are possible, and with the right attitude and perseverance, one
+                  can achieve the impossible.
+                  Anthesis: Awaken your Ambition is a reminder of how anthesis and ambition are both processes that
+                  involve growth and transformation. Without persistence, commitment, and the ability to overcome
+                  inevitable obstacles, one can, regrettably, fall short of their full potential and shall remind of the
+                  flower that fails to attain efflorescence.
+
+               </p>
+               <br>
+            </div>
+            <div class="col-md-6 pt-5">
+               <p style="text-align:justify">
+                  Just as seeds need careful nurturing to pave the way to new beginnings, ambition also needs tender
+                  care to allow for the manifestation of achievements from the bud of dreams and desire.
+                  At TEDxKIITUniversity, we nurture and celebrate inspiration that can be the catalyst for change in the
+                  world we live in. Through their journeys of anthesis, our speakers have managed to connect with
+                  innumerable individuals, leaving us with inspiring and enduring insights only through their utter
+                  tenacity and presence of mind, balancing numerous elements of life, despite the harsh elements of
+                  nature. They allow themselves to develop and thrive while defying the odds thrown their way. Anthesis
+                  is the development and change, blossoming, the signifier of growth, the little spark that can ignite
+                  the fire of optimism and hope we seek. Through this platform, we want to kindle the fire and help
+                  people find the motivation to discover their moment of anthesis, awaken and achieve their dreams while
+                  leaving an imprint in the sand of life that inspires.
+               </p>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+
+   <!-- 2023 speakers -->
+   <section id="speakers2021" style="background-color:black; ">
+      <div class="speakers2021 px-5 pt-5 py-5 animatedParent">
+         <h1 class=" text-center white-text display-5 fsb " style="font-family: 'Hind', semi-bold;">SPEAKERS</h1>
+         <hr width="8%" align="center" class="mb-5"
+            style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+         <!-- Card deck 1st row-->
+         <div class="card-deck">
+            <!-- Card start -->
+            <div class="card mb-4" data-toggle="modal" data-target="#myModalAnand">
+               <!--Card image-->
+               <div class="view overlay">
+                  <img class="card-img-top animated growIn" src="./images/2023/RK SINHA1.png"
+                     alt="Card image cap">
+                  <a href="#!">
+                     <div class="mask rgba-red-slight"></div>
+                  </a>
+                  <!-- Modal content-->
+                  <div id="myModalAnand" class="modal fade" role="dialog">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Prof (Dr) Ravindra Kumar Sinha</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p>A Padma Shri Awardee, a resilient biologist, researcher, and conservationist by
+                                 profession, has devoted his life to studying and conservating Gangetic dolphins. Known
+                                 as the "Dolphin Man of India", he has authored many research papers and reports to
+                                 raise awareness about these creatures. His relentless actions played a pivotal role in
+                                 establishing India's first National Dolphin Research Centre and formulating the
+                                 Conservation Action Plan for the Gangetic Dolphin. His dedication and commitment are
+                                 truly admirable.
+
+                              </p>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal content-->
+                  <!--Card content-->
+                  <div class="card-body">
+                     <!--Title-->
+                     <center>
+                        <h4 style="font-weight:500;">Prof (Dr) Ravindra Kumar Sinha</h4>
+                     </center>
+                     <!--Text-->
+                     <center>
+                        <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre:
+                           Wildlife</p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <!-- Card end -->
+            <!-- Card start-->
+            <div class="card mb-4" data-toggle="modal" data-target="#myModalCristina">
+               <!--Card image-->
+               <div class="view overlay">
+                  <img class="card-img-top animated growIn" src="./images/2023/venugopal yadav1.png"
+                     alt="Card image cap">
+                  <a href="#!">
+                     <div class="mask rgba-red-slight"></div>
+                  </a>
+                  <!-- Modal content-->
+                  <div id="myModalCristina" class="modal fade" role="dialog">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Venugopal Yadav</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p>An extraordinarily gifted artist who creates sand art with the belief that it is not
+                                 merely about what you observe but what you can communicate to others, his exceptional
+                                 aptitude and artistic ability have made him a celebrated artist. Having received many
+                                 accolades and even earning a place in record books, his work serves as a beacon of
+                                 inspiration to anyone with a passion for pursuing their dreams with determination.
+                              </p>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal content-->
+                  <!--Card content-->
+                  <div class="card-body">
+                     <!--Title-->
+                     <center>
+                        <h4 style="font-weight:500;">Venugopal Yadav</h4>
+                     </center>
+                     <!--Text-->
+                     <center>
+                        <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre: Sand
+                           Artist</p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <!-- Card end-->
+            <!-- Card start -->
+            <div class="card mb-4" data-toggle="modal" data-target="#myModalNidhi">
+               <!--Card image-->
+               <div class="view overlay">
+                  <img class="card-img-top animated growIn" src="./images/2023/lipsa hembram1.png" alt="Card image cap">
+                  <a href="#!">
+                     <div class="mask rgba-red-slight"></div>
+                  </a>
+                  <!-- Modal content-->
+                  <div id="myModalNidhi" class="modal fade" role="dialog">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Lipsa Hembram</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p>The visionary behind Galang Gabaan and a celebrated fashion designer who is making a
+                                 remarkable impact through her work, designs curated by her not only promote the rich
+                                 heritage of Odisha's tribal communities but also initiate socio-economic changes. With
+                                 national and international recognition under her belt, including showcases at Lakme
+                                 Fashion Week and a feature in a PSBT-DD National Documentary, her journey from a NIFT
+                                 alumnus to success is indeed reflected in Anthesis: Awaken Your Ambition.
+                              </p>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal content-->
+                  <!--Card content-->
+                  <div class="card-body">
+                     <!--Title-->
+                     <center>
+                        <h4 style="font-weight:500;">Lipsa Hembram</h4>
+                     </center>
+                     <!--Text-->
+                     <center>
+                        <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre: Fashion
+                        </p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <!-- Card end -->
+         </div>
+         <!-- Card deck 1st row-->
+         <!-- Card deck 2nd row-->
+         <div class="card-deck">
+            <!-- Card start -->
+            <div class="card mb-4" data-toggle="modal" data-target="#myModalAparna">
+               <!--Card image-->
+               <div class="view overlay">
+                  <img class="card-img-top animated growIn" src="./images/2023/aparna kumar1.png" alt="Card image cap">
+                  <a href="#!">
+                     <div class="mask rgba-red-slight"></div>
+                  </a>
+                  <!-- Modal content-->
+                  <div id="myModalAparna" class="modal fade" role="dialog">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Aparna Kumar</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p>As the first-ever IPS officer to ski to the Geographic South Pole and the first civil
+                                 servant to complete the "7 Summits Challenge", this Tenzing Norgay Awardee has reached
+                                 numerous pinnacles, surmounting every hindrance. In six decades, she is the first
+                                 female director of ITBP Academy, Mussoorie, and a beau ideal for women all around. Her
+                                 stalwart journey is for everyone to imbibe.
+
+                              </p>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal content-->
+                  <!--Card content-->
+                  <div class="card-body">
+                     <!--Title-->
+                     <center>
+                        <h4 style="font-weight:500;">Aparna Kumar</h4>
+                     </center>
+                     <!--Text-->
+                     <center>
+                        <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre:
+                           Mountaineering</p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <!-- Card end -->
+            <!-- Card start-->
+            <div class="card mb-4" data-toggle="modal" data-target="#myModalAlam">
+               <!--Card image-->
+               <div class="view overlay">
+                  <img class="card-img-top animated growIn" src="./images/2023/shams aalam1.png" alt="Card image cap">
+                  <a href="#!">
+                     <div class="mask rgba-red-slight"></div>
+                  </a>
+                  <!-- Modal content-->
+                  <div id="myModalAlam" class="modal fade" role="dialog">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Mohammad Shams Aalam Shaikh</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p>An accomplished Indian para swimmer from the state of Bihar, he is a world record
+                                 holder for the longest open-sea swim by a person with paraplegia. Having made his mark
+                                 in the swimming world with multiple medals at National and International para swimming
+                                 championships, including the World Para Swimming Championship, he has demonstrated
+                                 exceptional talent, grit, and tenacity. An inspirational sportsperson with an
+                                 unrelenting spirit, he is the pinnacle of resolute determination.
+                              </p>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal content-->
+                  <!--Card content-->
+                  <div class="card-body">
+                     <!--Title-->
+                     <center>
+                        <h4 style="font-weight:500;">Mohammad Shams Aalam Shaikh</h4>
+                     </center>
+                     <!--Text-->
+                     <center>
+                        <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre: Sports
+                        </p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <!-- Card end-->
+            <!-- Card start -->
+            <div class="card mb-4" data-toggle="modal" data-target="#myModalNidh">
+               <!--Card image-->
+               <div class="view overlay">
+                  <img class="card-img-top animated growIn" src="./images/2023/vijaypal1.png"
+                     alt="Card image cap">
+                  <a href="#!">
+                     <div class="mask rgba-red-slight"></div>
+                  </a>
+                  <!-- Modal content-->
+                  <div id="myModalNidh" class="modal fade" role="dialog">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Commodore Vijaypal Singh Rawat</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p>A Shaurya Chakra awardee who has served in the highly specialised commando force, the
+                                 MARCOS of the Indian Naval Services, he is known for immense gallantry and valour.
+                                 Having received top-class training with the renowned US Navy SEALs, this Indian Navy
+                                 veteran has played a key role in the Mission Rakhshak in Kashmir and provided deep
+                                 insights into the 26/11 Mumbai attacks, making him the pride of the nation one of the
+                                 most decorated, cherished, and celebrated service members.
+                              </p>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal content-->
+                  <!--Card content-->
+                  <div class="card-body">
+                     <!--Title-->
+                     <center>
+                        <h4 style="font-weight:500;">Commodore Vijaypal Singh Rawat</h4>
+                     </center>
+                     <!--Text-->
+                     <center>
+                        <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre: Defence
+                        </p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <!-- Card end -->
+         </div>
+         <!-- Card deck 2nd row-->
+            <!-- Card deck 2nd row-->
+            <div class="card-deck">
+               <!-- Card start -->
+               <div class="card mb-4" data-toggle="modal" data-target="#myModalSangeeta">
+                  <!--Card image-->
+                  <div class="view overlay">
+                     <img class="card-img-top animated growIn" src="./images/2023/sangeeta kapoor1.png" alt="Card image cap">
+                     <a href="#!">
+                        <div class="mask rgba-red-slight"></div>
+                     </a>
+                     <!-- Modal content-->
+                     <div id="myModalSangeeta" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h4 class="modal-title">Sangeeta Kapoor</h4>
+                              </div>
+                              <div class="modal-body">
+                                 <p>A Guinness World Record holder with over 1000 shows and counting, her brilliance in the craft continues to enchant, both figuratively and literally. Her movie has won India's Top Most Girl Magician Award, and she is a Global Magical Entertainer and Trainer of Magic Art & Illusion. Holding the baton of her family legacy, she has performed on several prime-time national and international TV shows.
+                                 </p>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Modal content-->
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <center>
+                           <h4 style="font-weight:500;">Sangeeta Kapoor</h4>
+                        </center>
+                        <!--Text-->
+                        <center>
+                           <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre:
+                              magician</p>
+                        </center>
+                     </div>
+                  </div>
+               </div>
+               <!-- Card end -->
+               <!-- Card start-->
+               <div class="card mb-4" data-toggle="modal" data-target="#myModalSrikanth">
+                  <!--Card image-->
+                  <div class="view overlay">
+                     <img class="card-img-top animated growIn" src="./images/2023/srikanth1.png" alt="Card image cap">
+                     <a href="#!">
+                        <div class="mask rgba-red-slight"></div>
+                     </a>
+                     <!-- Modal content-->
+                     <div id="myModalSrikanth" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h4 class="modal-title">Srikanth Mannepuri</h4>
+                              </div>
+                              <div class="modal-body">
+                                 <p>A renowned wildlife conservationist, photographer, and filmmaker with an unceasing passion for forests and wildlife, he utilises his photography skills to narrate enthralling stories and raise awareness about sustainable living and conservation practices. His image titled ‘Just One Day’s Catch’, showcasing Marlin and Sail fishes at the Kakinada coast, earned him the Highly Commendable award in the Wildlife Photographer of the Year competition, London in the Oceans niche. His work has garnered widespread recognition with a large social media following. His commitment to saving wildlife, the environment, and the world while narrating stories has become a driving force for him and the youth worldwide.
+
+                                 </p>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Modal content-->
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <center>
+                           <h4 style="font-weight:500;">Srikanth Mannepuri</h4>
+                        </center>
+                        <!--Text-->
+                        <center>
+                           <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre: Wildlife Photography
+                           </p>
+                        </center>
+                     </div>
+                  </div>
+               </div>
+               <!-- Card end-->
+               <!-- Card start -->
+               <div class="card mb-4" data-toggle="modal" data-target="#myModalGupta">
+                  <!--Card image-->
+                  <div class="view overlay">
+                     <img class="card-img-top animated growIn" src="./images/2023/VISHAL PRASAD GUPTA1.png"
+                        alt="Card image cap">
+                     <a href="#!">
+                        <div class="mask rgba-red-slight"></div>
+                     </a>
+                     <!-- Modal content-->
+                     <div id="myModalGupta" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h4 class="modal-title">
+                                    Vishal Prasad Gupta
+                                   </h4>
+                              </div>
+                              <div class="modal-body">
+                                 <p>An engineer with a unique idea and a vision to transform the energy sector, he has earned recognition as the world's first individual to create biofuel with algae and leads India's biofuel revolution. His work has been recognised and published in 'The Morning Standard'. He is dedicated to providing a viable replacement for fossil fuels worldwide for the sake of the environment. His journey and unwavering dedication are indeed inspirational.
+
+                                 </p>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Modal content-->
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <center>
+                           <h4 style="font-weight:500;">Vishal Prasad Gupta</h4>
+                        </center>
+                        <!--Text-->
+                        <center>
+                           <p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Genre: Environment/Renewable Energy
+
+                           </p>
+                        </center>
+                     </div>
+                  </div>
+               </div>
+               <!-- Card end -->
+            </div>
+            <!-- Card deck 3rd row-->
+      </div>
+   </section>
+   <!-- 2023 speakers -->
+
+   <section id="OurTeam">
+      <div class="Team2023">
+         <h1 class=" text-center black-text display-5 fsb" style="font-family: 'Hind', semi-bold;">ORGANISERS</h1>
+         <hr width="8%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+       
+      </div>
+      <div class="team">
+         <!-- <h4 class="font-weight-bold"  align="center" style="margin-left:15px;padding-bottom:20px">Organisers</h4> -->
+         <div class="row animatedParent"
+            style="padding:0px;margin-bottom:20px;display: flex; align-items: center; justify-content: center;gap:30px">
+            <div class="col-md-3" style="padding:0px;display: flex; justify-content: center">
+               <div class="view overlay animated growIn" style="padding:0px;display: flex; justify-content: center;">
+                  <img src="images/CEO 2023.jpg" class="img-fluid rounded-circle" alt="CEO"
+                     style="width:200px;height:200px !important;object-fit:cover; object-position: top;">
+                  <div class="mask flex-center waves-effect waves-light rgba-red-strong rounded-circle"
+                     style="width:200px;height:200px">
+                     <center>
+                        <p class="white-text font-weight-bold" style="padding-top: 70px;">
+                           SUBHAM MISHRA<br>------<br> CEO <br>
+                           <a href="https://www.facebook.com/subham.mishrabapu2000?mibextid=ZbWKwL" id="fb"
+                              target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                                 viewBox="0 0 224 224" style=" fill:#ffffff;">
+                                 <g transform="translate(2.912,2.912) scale(0.974,0.974)">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none"
+                                       stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10"
+                                       stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                       font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                       <g id="original-icon 1" fill="#ffffff" stroke="#f44336" stroke-width="6"
+                                          stroke-linejoin="round">
+                                          <g id="surface1 1">
+                                             <path
+                                                d="M175,35c7.65625,0 14,6.34375 14,14v126c0,7.65625 -6.34375,14 -14,14h-126c-7.65625,0 -14,-6.34375 -14,-14v-126c0,-7.65625 6.34375,-14 14,-14zM49,175h67.8125v-47.25h-18.375v-21h18.375v-15.75c0,-18.07422 10.99219,-27.78125 27.125,-27.78125c7.73828,0 14.46484,0.41016 16.40625,0.65625v19.03125h-11.375c-8.77734,0 -10.28125,4.15625 -10.28125,10.28125v13.5625h20.78125l-2.625,21h-18.15625v47.25h36.3125v-126h-126z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <g id="original-icon" fill="#ffffff" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter">
+                                          <g id="surface1">
+                                             <path
+                                                d="M49,35c-7.65625,0 -14,6.34375 -14,14v126c0,7.65625 6.34375,14 14,14h126c7.65625,0 14,-6.34375 14,-14v-126c0,-7.65625 -6.34375,-14 -14,-14zM49,49h126v126h-36.3125v-47.25h18.15625l2.625,-21h-20.78125v-13.5625c0,-6.125 1.50391,-10.28125 10.28125,-10.28125h11.375v-19.03125c-1.94141,-0.24609 -8.66797,-0.65625 -16.40625,-0.65625c-16.13281,0 -27.125,9.70703 -27.125,27.78125v15.75h-18.375v21h18.375v47.25h-67.8125z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <path d="M4.48,219.52v-215.04h215.04v215.04z" fill="none" stroke="none"
+                                          stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112h0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52v0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <path d="M4.48,219.52v-215.04h215.04v215.04z" fill="none" stroke="none"
+                                          stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112h0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52v0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                    </g>
+                                 </g>
+                              </svg>
+                           </a>
+                           <a href="https://instagram.com/subhammishra07" id="instagram" target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                                 viewBox="0 0 224 224" style=" fill:#ffffff;">
+                                 <g transform="translate(4.816,4.816) scale(0.957,0.957)">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none"
+                                       stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10"
+                                       stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                       font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                       <g fill="#ffffff" stroke="#f44336" stroke-width="10" stroke-linejoin="round">
+                                          <g id="surface1 1">
+                                             <path
+                                                d="M168,35c11.51172,0 21,9.48828 21,21v112c0,11.51172 -9.48828,21 -21,21h-112c-11.51172,0 -21,-9.48828 -21,-21v-112c0,-11.51172 9.48828,-21 21,-21zM147,77h21v-21h-21zM84,112c0,15.55859 12.44141,28 28,28c15.55859,0 28,-12.44141 28,-28c0,-15.55859 -12.44141,-28 -28,-28c-15.55859,0 -28,12.44141 -28,28zM49,168c0,3.96484 3.03516,7 7,7h112c3.96484,0 7,-3.03516 7,-7v-70h-23.40625c1.55859,4.375 2.40625,9.10547 2.40625,14c0,23.10547 -18.89453,42 -42,42c-23.10547,0 -42,-18.89453 -42,-42c0,-4.89453 0.84766,-9.625 2.40625,-14h-23.40625z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <g fill="#ffffff" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                          <g id="surface1">
+                                             <path
+                                                d="M56,35c-11.51172,0 -21,9.48828 -21,21v112c0,11.51172 9.48828,21 21,21h112c11.51172,0 21,-9.48828 21,-21v-112c0,-11.51172 -9.48828,-21 -21,-21zM147,56h21v21h-21zM112,84c15.55859,0 28,12.44141 28,28c0,15.55859 -12.44141,28 -28,28c-15.55859,0 -28,-12.44141 -28,-28c0,-15.55859 12.44141,-28 28,-28zM49,98h23.40625c-1.55859,4.375 -2.40625,9.10547 -2.40625,14c0,23.10547 18.89453,42 42,42c23.10547,0 42,-18.89453 42,-42c0,-4.89453 -0.84766,-9.625 -2.40625,-14h23.40625v70c0,3.96484 -3.03516,7 -7,7h-112c-3.96484,0 -7,-3.03516 -7,-7z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                    </g>
+                                 </g>
+                              </svg>
+                           </a>
+                        </p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3" style="padding:0px;display: flex; justify-content: center;">
+               <div class="view overlay animated growIn" style="padding:0px;display: flex; justify-content: center;">
+                  <img src="images/Licensee 2023.jpg" class="img-fluid rounded-circle" alt="Organiser"
+                     style="width:200px;height:200px !important;object-fit:cover; object-position: top;">
+                  <div class="mask flex-center waves-effect waves-light rgba-red-strong rounded-circle"
+                     style="width:200px;height:200px;">
+                     <center>
+                        <p class="white-text font-weight-bold" style="padding-top: 70px;">
+                           PRANATI TIWARI<br>------<br> LICENSEE <br>
+                           <a href="https://www.facebook.com/profile.php?id=100070304230081&mibextid=ZbWKwL" id="fb"
+                              target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                                 viewBox="0 0 224 224" style=" fill:#ffffff;">
+                                 <g transform="translate(2.912,2.912) scale(0.974,0.974)">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none"
+                                       stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10"
+                                       stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                       font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                       <g id="original-icon 1" fill="#ffffff" stroke="#f44336" stroke-width="6"
+                                          stroke-linejoin="round">
+                                          <g id="surface1 1">
+                                             <path
+                                                d="M175,35c7.65625,0 14,6.34375 14,14v126c0,7.65625 -6.34375,14 -14,14h-126c-7.65625,0 -14,-6.34375 -14,-14v-126c0,-7.65625 6.34375,-14 14,-14zM49,175h67.8125v-47.25h-18.375v-21h18.375v-15.75c0,-18.07422 10.99219,-27.78125 27.125,-27.78125c7.73828,0 14.46484,0.41016 16.40625,0.65625v19.03125h-11.375c-8.77734,0 -10.28125,4.15625 -10.28125,10.28125v13.5625h20.78125l-2.625,21h-18.15625v47.25h36.3125v-126h-126z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <g id="original-icon" fill="#ffffff" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter">
+                                          <g id="surface1">
+                                             <path
+                                                d="M49,35c-7.65625,0 -14,6.34375 -14,14v126c0,7.65625 6.34375,14 14,14h126c7.65625,0 14,-6.34375 14,-14v-126c0,-7.65625 -6.34375,-14 -14,-14zM49,49h126v126h-36.3125v-47.25h18.15625l2.625,-21h-20.78125v-13.5625c0,-6.125 1.50391,-10.28125 10.28125,-10.28125h11.375v-19.03125c-1.94141,-0.24609 -8.66797,-0.65625 -16.40625,-0.65625c-16.13281,0 -27.125,9.70703 -27.125,27.78125v15.75h-18.375v21h18.375v47.25h-67.8125z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <path d="M4.48,219.52v-215.04h215.04v215.04z" fill="none" stroke="none"
+                                          stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112h0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52v0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <path d="M4.48,219.52v-215.04h215.04v215.04z" fill="none" stroke="none"
+                                          stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112h0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52v0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                    </g>
+                                 </g>
+                              </svg>
+                           </a>
+                           <a target="_blank" href="https://instagram.com/pranatitiwarii?igshid=MjljNjAzYmU"
+                              id="instagram">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                                 viewBox="0 0 224 224" style=" fill:#ffffff;">
+                                 <g transform="translate(4.816,4.816) scale(0.957,0.957)">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none"
+                                       stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10"
+                                       stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                       font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                       <g fill="#ffffff" stroke="#f44336" stroke-width="10" stroke-linejoin="round">
+                                          <g id="surface1 1">
+                                             <path
+                                                d="M168,35c11.51172,0 21,9.48828 21,21v112c0,11.51172 -9.48828,21 -21,21h-112c-11.51172,0 -21,-9.48828 -21,-21v-112c0,-11.51172 9.48828,-21 21,-21zM147,77h21v-21h-21zM84,112c0,15.55859 12.44141,28 28,28c15.55859,0 28,-12.44141 28,-28c0,-15.55859 -12.44141,-28 -28,-28c-15.55859,0 -28,12.44141 -28,28zM49,168c0,3.96484 3.03516,7 7,7h112c3.96484,0 7,-3.03516 7,-7v-70h-23.40625c1.55859,4.375 2.40625,9.10547 2.40625,14c0,23.10547 -18.89453,42 -42,42c-23.10547,0 -42,-18.89453 -42,-42c0,-4.89453 0.84766,-9.625 2.40625,-14h-23.40625z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <g fill="#ffffff" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                          <g id="surface1">
+                                             <path
+                                                d="M56,35c-11.51172,0 -21,9.48828 -21,21v112c0,11.51172 9.48828,21 21,21h112c11.51172,0 21,-9.48828 21,-21v-112c0,-11.51172 -9.48828,-21 -21,-21zM147,56h21v21h-21zM112,84c15.55859,0 28,12.44141 28,28c0,15.55859 -12.44141,28 -28,28c-15.55859,0 -28,-12.44141 -28,-28c0,-15.55859 12.44141,-28 28,-28zM49,98h23.40625c-1.55859,4.375 -2.40625,9.10547 -2.40625,14c0,23.10547 18.89453,42 42,42c23.10547,0 42,-18.89453 42,-42c0,-4.89453 -0.84766,-9.625 -2.40625,-14h23.40625v70c0,3.96484 -3.03516,7 -7,7h-112c-3.96484,0 -7,-3.03516 -7,-7z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                    </g>
+                                 </g>
+                              </svg>
+                           </a>
+                        </p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3" style="padding:0px; display: flex; justify-content: center">
+               <div class="view overlay animated growIn" style="padding:0px;display: flex; justify-content: center;">
+                  <img src="images/Co organiser 2023.jpg" class="img-fluid rounded-circle" alt="Co-organiser"
+                     style="width:200px;height:200px !important; object-fit:cover; object-position: top;">
+                  <div class="mask flex-center waves-effect waves-light rgba-red-strong rounded-circle"
+                     style="width:200px;height:200px">
+                     <center>
+                        <p class="white-text font-weight-bold" style="padding-top: 70px;">
+                           SHRAMAN SEN<br>------<br>CO - ORGANISER <br>
+                           <a href="https://www.facebook.com/shramankeys?mibextid=ZbWKwL" id="fb" target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                                 viewBox="0 0 224 224" style=" fill:#ffffff;">
+                                 <g transform="translate(2.912,2.912) scale(0.974,0.974)">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none"
+                                       stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10"
+                                       stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                       font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                       <g id="original-icon 1" fill="#ffffff" stroke="#f44336" stroke-width="6"
+                                          stroke-linejoin="round">
+                                          <g id="surface1 1">
+                                             <path
+                                                d="M175,35c7.65625,0 14,6.34375 14,14v126c0,7.65625 -6.34375,14 -14,14h-126c-7.65625,0 -14,-6.34375 -14,-14v-126c0,-7.65625 6.34375,-14 14,-14zM49,175h67.8125v-47.25h-18.375v-21h18.375v-15.75c0,-18.07422 10.99219,-27.78125 27.125,-27.78125c7.73828,0 14.46484,0.41016 16.40625,0.65625v19.03125h-11.375c-8.77734,0 -10.28125,4.15625 -10.28125,10.28125v13.5625h20.78125l-2.625,21h-18.15625v47.25h36.3125v-126h-126z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <g id="original-icon" fill="#ffffff" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter">
+                                          <g id="surface1">
+                                             <path
+                                                d="M49,35c-7.65625,0 -14,6.34375 -14,14v126c0,7.65625 6.34375,14 14,14h126c7.65625,0 14,-6.34375 14,-14v-126c0,-7.65625 -6.34375,-14 -14,-14zM49,49h126v126h-36.3125v-47.25h18.15625l2.625,-21h-20.78125v-13.5625c0,-6.125 1.50391,-10.28125 10.28125,-10.28125h11.375v-19.03125c-1.94141,-0.24609 -8.66797,-0.65625 -16.40625,-0.65625c-16.13281,0 -27.125,9.70703 -27.125,27.78125v15.75h-18.375v21h18.375v47.25h-67.8125z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <path d="M4.48,219.52v-215.04h215.04v215.04z" fill="none" stroke="none"
+                                          stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112h0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52v0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <path d="M4.48,219.52v-215.04h215.04v215.04z" fill="none" stroke="none"
+                                          stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112h0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path
+                                          d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52v0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z"
+                                          fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                    </g>
+                                 </g>
+                              </svg>
+                           </a>
+                           <a href="https://instagram.com/shraman.keys?igshid=MjljNjAzYmU=" id="instagram"
+                              target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                                 viewBox="0 0 224 224" style=" fill:#ffffff;">
+                                 <g transform="translate(4.816,4.816) scale(0.957,0.957)">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none"
+                                       stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10"
+                                       stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                       font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                       <g fill="#ffffff" stroke="#f44336" stroke-width="10" stroke-linejoin="round">
+                                          <g id="surface1 1">
+                                             <path
+                                                d="M168,35c11.51172,0 21,9.48828 21,21v112c0,11.51172 -9.48828,21 -21,21h-112c-11.51172,0 -21,-9.48828 -21,-21v-112c0,-11.51172 9.48828,-21 21,-21zM147,77h21v-21h-21zM84,112c0,15.55859 12.44141,28 28,28c15.55859,0 28,-12.44141 28,-28c0,-15.55859 -12.44141,-28 -28,-28c-15.55859,0 -28,12.44141 -28,28zM49,168c0,3.96484 3.03516,7 7,7h112c3.96484,0 7,-3.03516 7,-7v-70h-23.40625c1.55859,4.375 2.40625,9.10547 2.40625,14c0,23.10547 -18.89453,42 -42,42c-23.10547,0 -42,-18.89453 -42,-42c0,-4.89453 0.84766,-9.625 2.40625,-14h-23.40625z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="M0,224v-224h224v224z" fill="none" stroke="none" stroke-width="1"
+                                          stroke-linejoin="miter"></path>
+                                       <g fill="#ffffff" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                          <g id="surface1">
+                                             <path
+                                                d="M56,35c-11.51172,0 -21,9.48828 -21,21v112c0,11.51172 9.48828,21 21,21h112c11.51172,0 21,-9.48828 21,-21v-112c0,-11.51172 -9.48828,-21 -21,-21zM147,56h21v21h-21zM112,84c15.55859,0 28,12.44141 28,28c0,15.55859 -12.44141,28 -28,28c-15.55859,0 -28,-12.44141 -28,-28c0,-15.55859 12.44141,-28 28,-28zM49,98h23.40625c-1.55859,4.375 -2.40625,9.10547 -2.40625,14c0,23.10547 18.89453,42 42,42c23.10547,0 42,-18.89453 42,-42c0,-4.89453 -0.84766,-9.625 -2.40625,-14h23.40625v70c0,3.96484 -3.03516,7 -7,7h-112c-3.96484,0 -7,-3.03516 -7,-7z">
+                                             </path>
+                                          </g>
+                                       </g>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                       <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter">
+                                       </path>
+                                    </g>
+                                 </g>
+                              </svg>
+                           </a>
+                        </p>
+                     </center>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Collaborators of 2023 -->
+   <section id="Colab"style="background-color: #000000">
+      <div class="Team2023">
+         <h1 class=" text-center white-text display-5 fsb" style="font-family: 'Hind', semi-bold;">COLLABORATORS</h1>
+         <hr width="8%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+       
+      </div>
+      <div class="colab">
+         <div class="row animatedParent"
+            style="padding:0px;padding-bottom:20px;width:inherit; display: flex; align-items: center; justify-content: center;gap:30px">
+           <div class="col-md-3" style="padding:0px;display: flex; justify-content: center">
+                  <img src="images/Colab/1.png"
+                     style="object-position:left;max-width:100%; object-fit:contain">
+               </div>
+            <div class="col-md-3" style="padding:0px;display: flex; justify-content: center">
+                 <img src="images/Colab/2.png"
+                    style="object-position:right ;max-width:100%;object-fit:contain">
+              </div>
+              <div class="col-md-3" style="padding:0px;display: flex; justify-content: center">
+               <img src="images/Colab/3.png"
+                  style="object-position:right ;max-width:100%;object-fit:contain">
+            </div>
+            <div class="col-md-5" style="padding:0px;display: flex; justify-content: center">
+               <img src="images/Colab/4.png"
+                  style="object-position:right ;max-width:70%;object-fit:contain">
+            </div>
+            <div class="col-md-5" style="padding:0px;display: flex; justify-content: center">
+               <img src="images/Colab/5.png"
+                  style="object-position:right ;max-width:55%;object-fit:contain">
+            </div>
+            <div class="col-md-5" style="padding:0px;display: flex; justify-content: center">
+               <img src="images/Colab/6.png"
+                  style="object-position:right ;max-width:55%;object-fit:contain">
+            </div>
+            <div class="col-md-5" style="padding:0px;display: flex; justify-content: center">
+               <img src="images/Colab/7.png"
+                  style="object-position:right ;max-width:70%;object-fit:contain">
+            </div>
+            
+         </div>
+      </div>
+   </section>
+
+   <!-- Sponsors of 2023 -->
+   <div class="sponsers-2023">
+      <div class="sponspers-title">
+         <h1 class=" text-center white-text display-5 fsb " style="font-family: 'Hind', semi-bold;">OUR SPONSORS</h1>
+         <hr width="8%" align="center" class=""
+            style="height:3px; width:100px; border:none; color:#f44336;background-color:#f44336;">
+      </div>
+      <section class="titleSponsers">
+         <div class="titleSponsers-logos">
+           <img  src="images/2023/sponspors/Asset 31@600x.png">
+           <a href="#">Munchies Partner</a>
+         </div>
+         <div class="titleSponsers-logos">
+           <img  src="images/2023/sponspors/Asset 24@600x.png">
+           <a href="#">Accessories Partner</a>
+         </div>
+         <div class="titleSponsers-logos">
+           <img  src="images/2023/sponspors/Asset 25@600x.png">
+           <a href="#">Food Partner</a>
+         </div>
+          <div class="titleSponsers-logos">
+           <img  src="images/2023/sponspors/Asset 26@600x.png">
+           <a href="#">Energy Drink Partner</a>
+         </div>
+         <div class="titleSponsers-logos">
+           <img src="images/2023/sponspors/Asset 30@600x.png">
+           <a href="#">Beverage Partner</a>
+         </div>
+         <div class="titleSponsers-logos">
+            <img src="images/2023/sponspors/Asset 29@600x.png">
+            <a href="#">EV Partner</a>
+          </div>
+      </section>
+      <div class="sponspers-title">
+         <!-- <h1 class=" text-center white-text display-5 fsb font1 " style="font-family: 'Hind', semi-bold;">OTHER SPONSORS</h1> -->
+      </div>
+       <hr width="8%" align="center" class=""
+            style="height:3px; width:100px; border:none; color:#f44336;background-color:#f44336;">
+      <section class="titleSponsers">
+         <div class="titleSponsers-logos">
+           <img  src="images/2023/sponspors/cashify.png">
+         </div>
+         <div class="titleSponsers-logos">
+           <img  src="images/2023/sponspors/Asset 27@600x.png">
+         </div>
+          <div class="titleSponsers-logos">
+           <img  src="images/2023/sponspors/Asset 32@600x.png">
+         </div>
+         <div class="titleSponsers-logos">
+           <img src="images/2023/sponspors/Asset 33@600x.png">
+         </div>
+      </section>
+   </div>
+
+   <!--Contact Us-->
+   <section id="ContactUs" style="background-color:white;">
+      <div class="ContactUs">
+         <h1 class=" text-center black-text display-5 fsb " style="font-family: 'Hind', semi-bold;">CONTACT US</h1>
+         <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+      </div>
+      <div class="card" style="background-color:white;">
+         <div class="card-body">
+            <!--Google map-->
+            <div id="map-container-google-12" class="z-depth-1-half map-container-7" style="height: 100%">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.6368424592506!2d85.81673931422233!3d20.35661588636627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19093cc3e1974b%3A0x85a345e1f4fcce86!2sKIIT+Student+Activity+Center-KSAC!5e0!3m2!1sen!2sin!4v1552386222734"
+                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <!--Buttons-->
+            <div class="row text-center" style="padding-top:20px;">
+               <div class="col-md-4">
+                  <h1 class=" text-center black-text fsb" style="font-family: 'Hind', semi-bold;font-size: 35px;">PHONE
+                  </h1>
+                  <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+                  <a href="tel:+ 91 8763762248">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"
+                        onMouseOut="this.style.color='#000'">+91 8763762248 (CEO)</p>
+                  </a>
+                  <a href="tel:+ 91 9415005881">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"
+                        onMouseOut="this.style.color='#000'">+91 9415005881 (LICENSEE)</p>
+                  </a>
+                  <a href="tel:+ 91 8017549130">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"
+                        onMouseOut="this.style.color='#000'">+91 8017549130 (CO - ORGANISER)</p>
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <h1 class=" text-center black-text fsb " style="font-family: 'Hind', semi-bold;font-size: 35px;">
+                     ADDRESS</h1>
+                  <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+                  <p style="font-size:20px;margin-bottom:0px;" class="black-text">Student Activity Centre</p>
+                  <p style="font-size:20px;margin-bottom:0px;" class="black-text">Campus 13</p>
+                  <p style="font-size:20px;margin-bottom:0px;" class="black-text">KIIT (Deemed to be University)</p>
+                  <p style="font-size:20px;" class="black-text">Bhubaneswar, Odisha - 751024</p>
+               </div>
+               <div class="col-md-4">
+                  <h1 class=" text-center black-text fsb " style="font-family: 'Hind', semi-bold;font-size: 35px;">
+                     E-MAIL</h1>
+                  <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+                  <a href="https://mail.google.com/mail/u/0/#kiituniversitytedx@gmail.com" target="_blank">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"
+                        onMouseOut="this.style.color='#000'">kiituniversitytedx@gmail.com</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+   </section>
+   <!--Contact Us-->
+   <!-- Footer -->
+   <footer class="page-footer font-small" style="background-color:#262626;">
+      <div class="footer-copyright white-text text-center">
+         <p style="font-size:14px;margin-bottom: 0px;padding: 10px;">© Copyright 2023 TEDxKIITUniversity. Designed and
+            Developed by Web Team. | This independent TEDx event is operated under license from TED.</p>
+      </div>
+   </footer>
+   <!-- Footer -->
+   <!-- SCRIPTS -->
+   <!-- JQuery -->
+   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+   <script>
+      $('a[href*="#"]')
+         // Remove links that don't actually link to anything
+         .not('[href="#"]')
+         .not('[href="#0"]')
+         .click(function (event) {
+            // On-page links
+            if (
+               location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+               &&
+               location.hostname == this.hostname
+            ) {
+               // Figure out element to scroll to
+               var target = $(this.hash);
+               target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+               // Does a scroll target exist?
+               if (target.length) {
+                  // Only prevent default if animation is actually gonna happen
+                  event.preventDefault();
+                  $('html, body').animate({
+                     scrollTop: target.offset().top
+                  }, 1000, function () {
+                     // Callback after animation
+                     // Must change focus!
+                     var $target = $(target);
+                     $target.focus();
+                     if ($target.is(":focus")) { // Checking if the target was focused
+                        return false;
+                     } else {
+                        $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                        $target.focus(); // Set focus again
+                     };
+                  });
+               }
+            }
+         });
+   </script>
+   <script>
+      var btn = $('#button');
+
+      $(window).scroll(function () {
+         if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+         } else {
+            btn.removeClass('show');
+         }
+      });
+
+      btn.on('click', function (e) {
+         e.preventDefault();
+         $('html, body').animate({ scrollTop: 0 }, '300');
+      });
+   </script>
+   <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("April 30, 2023").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+
+         // Get today's date and time
+         var now = new Date().getTime();
+
+         // Find the distance between now and the count down date
+         var distance = countDownDate - now;
+
+         // Time calculations for days, hours, minutes and seconds
+         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+         // Output the result in an element with id="demo"
+         document.getElementById("day").innerHTML = days;
+         document.getElementById("hour").innerHTML = hours;
+         document.getElementById("minute").innerHTML = minutes;
+         document.getElementById("second").innerHTML = seconds;
+
+         // If the count down is over, write some text 
+         if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("day").innerHTML = "Something's LIT..";
+            document.getElementById("day").style.padding = "20px";
+            document.getElementById("h").parentNode.removeChild(document.getElementById("h"));
+            document.getElementById("m").parentNode.removeChild(document.getElementById("m"));
+            document.getElementById("s").parentNode.removeChild(document.getElementById("s"));
+            document.getElementById("smalltext").parentNode.removeChild(document.getElementById("smalltext"));
+         }
+      }, 1000);
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="js/css3-animate-it.js"></script>
+   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ADMIN Login</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/iconlogo.png">
+</head>
+<body style="background-color: #000;">    
+
+        <!--Section: Content-->
+          <form class="my-5 mx-md-5" action="">
+      
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <!-- Material form login -->
+                <div class="card">
+      
+                  <!--Card content-->
+                  <div class="card-body" style="background-color: #242323;">
+      
+                    <!-- Form -->
+                    <form class="text-center" style="color: #757575;" action="#!">
+      
+                      <h3 class="font-weight-bold my-4 pb-2 text-center white-text">ADMIN PORTAL</h3>
+      
+                      <!-- Name -->
+                      <input type="email" id="email_field" class="form-control mb-4" placeholder="User Id">
+      
+                      <!-- Email -->
+                      <input type="password" id="password_field" class="form-control" placeholder="Password">                      
+      
+                      <div class="text-center">
+                        <button type="button" class="btn btn-outline-orange btn-rounded my-4 waves-effect" onclick="login()"><b><font size="5px">Login</b></font></button>
+                      </div>
+      
+                    </form>
+                    <!-- Form -->
+      
+                  </div>
+      
+                </div>
+                <!-- Material form login -->
+              </div>
+            </div>
+      
+          </form>
+        <!--Section: Content-->
+      
+
+  <div id="login_div" class="main-div" style="width: 50%;">
+    <h3>Login to your account</h3>
+    <input type="email" placeholder="Email..." id="email_field" required/>
+    <input type="password" placeholder="Password..." id="password_field" required/>
+
+    <button class="btn btn-info btn-block my-2" onclick="login()">Login</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <div class="container my-4 py-4 z-depth-1">
+
+        <h4 id="user_para" style="float: right;"></h4>
+
+        <!--Section: Content-->
+        <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+      
+      
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+      
+            <!--Grid column-->
+            <div class="col-md-6">
+    
+              <div class="alert alert-success success-message" style="display:none;">Form submitted successfully.</div>
+    
+              <!-- Default form contact -->
+              <form class="text-center" action="#!" id="donationform">
+    
+               <h3 class="font-weight-bold mb-4">Donate Us</h3>
+      
+                <!-- First Name -->
+                <input type="text" class="form-control mb-4 firstname" placeholder="First Name" required>
+              
+                <!--Last Name -->
+                <input type="text" class="form-control mb-4 lastname" placeholder="Last Name" required>
+    
+                <!-- Age -->
+                <input type="number" class="form-control mb-4 age" placeholder="Age" required>
+      
+                <!-- Mode of Payment -->
+                <select class="browser-default custom-select mb-4" id="mop">
+                  <option value="" disabled selected>Mode of Payment</option>
+                  <option value="1">CASH</option>
+                  <option value="2">ONLINE</option>                                
+                </select>
+    
+                <!-- Amount Donated -->
+                <input type="number" class="form-control mb-4 amount" placeholder="Amount" required>
+      
+                <!-- Message
+                <div class="form-group">
+                  <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                    placeholder="Message"></textarea>
+                </div>     -->
+      
+                <!-- Send button -->
+                <button class="btn btn-info btn-block" id="submitbtn" type="submit">Save</button>            
+              </form>
+              <!-- Default form contact -->
+              <a href="./view.html"> <button class="btn btn-info btn-block my-2">View</button> </a>
+    
+              <button class="btn btn-info btn-block my-2" onclick="logout()">Logout</button>
+            </div>
+            <!--Grid column-->
+      
+          </div>
+          <!--Grid row-->
+          
+          
+        </section>
+        <!--Section: Content-->
+      </div>
+      
+  </div>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+
+  <!-- Your custom scripts (optional) -->
+  <script src="index.js"></script>
+
+</body>
+</html>

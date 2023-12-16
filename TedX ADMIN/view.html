@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Viewing your Data</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/iconlogo.png">
+</head>
+<body onload="checkdata()">
+
+  <div class="row">    
+    <div class="col-4">
+      <button class="btn btn-info my-2" onclick="logout()">Logout</button>
+    </div>
+    <div class="col-8">
+      <u><h5 class="my-3 mx-5" id="user_para"></h5></u>
+    </div>    
+  </div>
+    
+    <table class="table table-hover table-bordered">
+        <thead class="sticky">
+          <tr>
+            <th scope="col"></th>
+            <th scope="col" style="vertical-align: middle;">Name</th>
+            <th scope="col" style="vertical-align: middle;">E-Mail</th>
+            <th scope="col" style="vertical-align: middle;">Contact Number</th>
+            <th scope="col" style="vertical-align: middle;">Institution</th>
+            <th scope="col" style="vertical-align: middle;">Roll Number</th>
+            <th scope="col" style="vertical-align: middle;">Stream</th>
+            <th scope="col" style="vertical-align: middle;">Year</th>            
+            <th scope="col" style="vertical-align: middle;">Technology, Entertainment, Design: take your pick. What do you think is the brightest marker of 
+              change? What makes you think so?</th>
+            <th scope="col" style="vertical-align: middle;">TEDxKIITUniversity 2021 is set with the theme - “Aurora : The Atom of Ambition”. What is your 
+              interpretation of the theme with regards to the recent times?</th>
+            <th scope="col" style="vertical-align: middle;">What would be your least favorite topic for a TEDx talk and why?</th>
+            <th scope="col" style="vertical-align: middle;">Let us say, we invite you to our TEDx platform within a decade. What would be the title of your TEDx
+              talk?</th>
+            <th scope="col" style="vertical-align: middle;">Would you rather be unable to use search engines or unable to use social media?</th>
+            <th scope="col" style="vertical-align: middle;">How do you perceive this image?</th>
+            <th scope="col" style="vertical-align: middle;">If you could have lunch with any famous personality (living/deceased), who would it be and why?</th>
+            <th scope="col" style="vertical-align: middle;">To a person who has been asleep for the past 5 years, what would you say he/she has missed?</th>
+            <th scope="col" style="vertical-align: middle;">What is the one characteristic would you want the upcoming generations to adopt from ours?</th>            
+            <th scope="col" style="vertical-align: middle;">Hear About Us</th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          
+        </tbody>
+      </table>    
+    
+
+   <!-- jQuery -->
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+
+  <!-- Your custom scripts (optional) -->
+  <script src="index.js"></script>
+</body>
+</html>

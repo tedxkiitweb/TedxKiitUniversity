@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>TEDxKIITUniversity</title>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Hind Font -->
+      <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="css/mdb.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+      <link rel="icon" href="images/iconlogo.png">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160717844-1"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'UA-160717844-1');
+      </script>
+      <!-- Back to top button -->
+      <a id="button"></a>
+      <!-- back to top -->
+      <style>
+         #button {
+         display: inline-block;
+         background-color: #f44336;
+         width: 40px;
+         height: 40px;
+         text-align: center;
+         border-radius: 4px;
+         position: fixed;
+         bottom: 30px;
+         right: 30px;
+         transition: background-color .3s, 
+         opacity .5s, visibility .5s;
+         opacity: 0;
+         visibility: hidden;
+         z-index: 1000;
+         }
+         #button::after {
+         content: "\f077";
+         font-family: FontAwesome;
+         font-weight: normal;
+         font-style: normal;
+         font-size: 2em;
+         line-height: 40px;
+         color: #fff;
+         }
+         #button:hover {
+         cursor: pointer;
+         background-color: #333;
+         }
+         #button:active {
+         background-color: #D3D3D3;
+         }
+         #button.show {
+         opacity: 1;
+         visibility: visible;
+         }
+         body
+         {
+         background-color: black;
+         }
+         /* Dropdown Button */
+         .dropbtn {
+         background-color: #000;
+         color: white;
+         padding: 0px;
+         font-size: 16px;
+         border: none;
+         }
+         /* The container 
+         <div>
+         - needed to position the dropdown content */
+         .dropdown {
+         position: relative;
+         display: inline-block;
+         }
+         /* Dropdown Content (Hidden by Default) */
+         .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 100px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         }
+         /* Links inside the dropdown */
+         .dropdown-content a {
+         color: black;
+         padding: 10px 20px;
+         text-decoration: none;
+         display: block;
+         }
+         /* Change color of dropdown links on hover */
+         .dropdown-content a:hover {background-color: #f44336;}
+         /* Show the dropdown menu on hover */
+         .dropdown:hover .dropdown-content {display: block;}
+         /* Change the background color of the dropdown button when the dropdown content is shown */
+         .dropdown:hover .dropbtn {background-color: #000;}
+         .ContactUs
+         {
+         padding-top:20px;
+         }
+         .map-container-7
+         {
+         overflow:hidden;
+         padding-bottom:30%;
+         position:relative;
+         height:0;
+         }
+         .map-container-7 iframe
+         {
+         left:0;
+         top:0;
+         height:100%;
+         width:100%;
+         position:absolute;
+         }
+      </style>
+      <!-- Facebook Pixel Code -->
+      <script>
+         !function(f,b,e,v,n,t,s)
+         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+         if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+         n.queue=[];t=b.createElement(e);t.async=!0;
+         t.src=v;s=b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t,s)}(window,document,'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '295654995238689'); 
+         fbq('track', 'PageView');
+      </script>
+      <noscript>
+         <img height="1" width="1" 
+            src="https://www.facebook.com/tr?id=295654995238689&ev=PageView
+            &noscript=1"/>
+      </noscript>
+      <!-- End Facebook Pixel Code -->
+   </head>
+   <body>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black !important;">
+         <a class="navbar-brand px-lg-4 mr-0  black-text d-none d-sm-block" href="index.html" ><img src="images/logo.png" height="50" alt="" style="position:relative;top:-5px;">
+         <a class="navbar-brand px-lg-4 mr-0  black-text d-block d-sm-none" href="index.html" ><img src="images/logo.png" height="30" alt="" style="position:relative;top:-5px;">
+         <br><span class="fsb font-weight-bold" style="font-family: 'Hind'semi-bold;"></a></span>
+         <!-- Collapse button -->
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Collapsible content -->
+         <div class="collapse navbar-collapse justify-content-center font-weight-bold" id="basicExampleNav">
+            <!-- Links -->
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;padding-right:20px;color:#ffffff;"  href="./index.html" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#fff'"><span class="fsb nb" style="font-family: 'Hind',semi-bold;font-size: 16px;">HOME</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;padding-right:20px;color:#ffffff;"  href="./aboutus.html" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#fff'"><span class="fsb nb" style="font-family: 'Hind',semi-bold;font-size: 16px;">ABOUT</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;padding-right:20px;color:#ffffff;"  href="./PreviousSpeakers.html" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#fff'"><span class="fsb nb" style="font-family: 'Hind',semi-bold;font-size: 16px;">PREVIOUS&nbsp; EDITIONS</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" style="padding-left:20px;color:#ffffff;"  href="#ContactUs" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#fff'"><span class="fsb nb" style="font-family: 'Hind',semi-bold;font-size: 16px;">CONTACT US</span></a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!--/.Navbar-->
+      <!-- Registration for Coming Soon. -->
+      <!-- Rules -->
+      <div class="row pb-2 px-3 pt-3">
+         <div class="col-md-12 pr-0">
+           <h3 class="text-center white-text display-5 fsb " style="font-family: 'Hind', semi-bold;">** To be kept in mind while registration **</h3>
+           <p class="white-text display-5 fsb " style="font-family: 'Hind', semi-bold;font-size: 20px;">- Use the same details ( name, e-mail, phone ) while filling the form and making the payment</p>
+           <p class="white-text display-5 fsb " style="font-family: 'Hind', semi-bold;font-size: 20px;">- All (*) marked fields are mandatory</p>
+           <p class="white-text display-5 fsb " style="font-family: 'Hind', semi-bold;font-size: 20px;">- After filling the form, you will be able to proceed to payment page</p>
+           <p class="white-text display-5 fsb " style="font-family: 'Hind', semi-bold;font-size: 20px;">- Your seat will be confirmed right away after the payment</p>    
+         </div>  
+         </div>
+      <div class="row pb-2 px-3 pt-3">
+         <div class="col-md-12 pr-0">
+           <h3 class="text-center white-text display-5 fsb " style="font-family: 'Hind', semi-bold;">If you have already registered then <a href="https://imjo.in/YfvFYN" target="_blank"><button class="btn btn-info my-4 btn-dark btn-outline-danger" type="submit"><font size="4px"><b>PROCEED TO PAY</b></font></button></a></h3>
+           </div>
+         </div>
+      <!-- <div class="container py-5 z-depth-1" style="background-color:#242323;margin-bottom:3rem;box-shadow: 5px 5px 10px 5px rgba(255, 53, 71,0.16),0 5px 10px 0 rgba(255, 53, 71, 0.12) !important;">  
+         <h1 class=" text-center white-text display-5 fsb " style="font-family: 'Hind', semi-bold;">REGISTRATION WILL OPEN SOON.<br> TILL THEN STAY TUNED TO OUR WEBSITE.</h1>
+         <hr width="12%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+         </div> -->
+      <div class="container py-5 z-depth-1" style="background-color:#242323;margin-bottom:3rem;box-shadow: 5px 5px 10px 5px rgba(255, 53, 71,0.16),0 5px 10px 0 rgba(255, 53, 71, 0.12) !important;">
+         <!--Section: Content-->
+         <section class="px-md-4 mx-md-3 text-lg-left black-text">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+               <!--Grid column-->
+               <div class="col-md-12">
+<!--                   <div class="closingtext" id="closingtext">
+                     <h1 class="white-text">REGISTRATION CLOSED...BETTER LUCK NEXT TIME...</h1>
+                  </div> -->
+                  <!-- Default form register -->
+                  <form id="registrationform" action="#!">
+                     <h1 class=" text-center white-text display-5 fsb " style="font-family: 'Hind', semi-bold;">REGISTRATION FORM</h1>
+                     <hr width="16%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;margin-top: 0px;margin-bottom: 30px;">
+                     </hr>
+                     <label style="color:#fff">We are overwhelmed to have you here! What can we call you? *</label>				
+                     <input type="text" class="form-control mb-4 rounded name" placeholder="Enter Your name"required>
+                     <!-- E-mail -->
+                     <label style="color:#fff">Where can we mail you ? *</label>				
+                     <input type="email" class="form-control mb-4 rounded email" placeholder="Enter Your E-Mail" required>
+                     <!-- Phone number -->
+                     <label style="color:#fff">Where can we call you ? * &nbsp;<small id="message"></small></label>
+                     <input type="number" class="form-control mb-4 rounded phone" id="mobile" placeholder="Enter Your Phone number" onkeyup="check(); return false;" required>   			
+                     <!-- University/College Name -->
+                     <label style="color:#fff">Which institution do you belong to? *</label>          
+                     <select class="browser-default rounded custom-select mb-4" id="collegename" required>
+                        <option value="" disabled selected>Please Choose Your Institution</option>
+                        <option value="1">Kalinga Institute Of Industrial Technology</option>
+                        <option value="2">Other</option>
+                     </select>
+                     <!-- Phone number -->
+                     <label style="color:#fff">What is your University roll number? (The non-KIIT applicants can write NA) * &nbsp;<small id="message"></small></label>
+                     <input type="text" class="form-control mb-4 rounded roll" placeholder="Enter Your University Roll Number" required>   			
+                     <div class="form-row">
+                        <div class="col-md-6">
+                           <!-- Stream -->
+                           <label style="color:#fff">Stream *</label>
+                           <input type="text" class="form-control mb-4 rounded stream" placeholder="Enter Your Stream"required> 
+                        </div>
+                        <div class="col-md-6">
+                           <!--Year -->
+                           <label style="color:#fff">Year *</label>
+                           <select class="browser-default custom-select mb-4 rounded" id="year" required>
+                              <option value="" disabled selected>Please Choose Your Year</option>
+                              <option value="1">1<sup>st</sup></option>
+                              <option value="2">2<sup>nd</sup></option>
+                              <option value="3">3<sup>rd</sup></option>
+                              <option value="4">4<sup>th</sup></option>
+                              <option value="5">NA</option>
+                           </select>
+                        </div>
+                     </div>
+                     <!-- Q1 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">Technology, Entertainment, Design: take your pick. What do you think is the brightest marker of 
+                        change? What makes you think so? *</label>
+                        <textarea class="form-control mb-4 rounded q1" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q2 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">TEDxKIITUniversity 2021 is set with the theme - “Aurora : The Atom of Ambition”. What is your 
+                        interpretation of the theme with regards to the recent times? *</label>
+                        <textarea class="form-control mb-4 rounded q2" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q3 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">What would be your least favorite topic for a TEDx talk and why? *</label>
+                        <textarea class="form-control mb-4 rounded q3" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q4 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">Let us say, we invite you to our TEDx platform within a decade. What would be the title of your TEDx
+                        talk? *</label>
+                        <textarea class="form-control mb-4 rounded q4" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q5 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">Would you rather be unable to use search engines or unable to use social media? *</label>
+                        <textarea class="form-control mb-4 rounded q5" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q6 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">How do you perceive this image? *</label>
+                        <br>
+                        <img class="col-md-6" src="./images/q6.png" alt="Question 6" >
+                        <textarea class="form-control mb-4 rounded q6" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q7 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">If you could have lunch with any famous personality (living/deceased), who would it be and why? *</label>
+                        <textarea class="form-control mb-4 rounded q7" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q8 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">To a person who has been asleep for the past 5 years, what would you say he/she has missed? *</label>
+                        <textarea class="form-control mb-4 rounded q8" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Q9 -->
+                     <div class="form-group">
+                        <label style="color:#fff" for="exampleFormControlTextarea3">What is the one characteristic that you want the upcoming generations to adopt from ours? *</label>
+                        <textarea class="form-control mb-4 rounded q9" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+                     </div>
+                     <!-- Hear About Us -->
+                     <label style="color:#fff">How did you hear about us ? *</label>
+                     <select class="browser-default custom-select mb-4 rounded" id="hearaboutus" required>
+                        <option value="" disabled selected>Please Choose a Option</option>
+                        <option value="1">Social Media</option>
+                        <option value="2">Workshop</option>
+                        <option value="3">Word of Mouth</option>
+                        <option value="4">Offline Poster and Flexes</option>
+                        <option value="5">Campus Ambassadors</option>
+                        <option value="6">Website</option>
+                        <option value="7">Others</option>
+                     </select>
+                     <!-- Register button -->
+                     <button class="btn btn-info my-4 btn-block btn-dark btn-outline-danger" type="submit"><font size="4px"><b>Register</b></font></button>      
+                  </form>
+                  <!-- Default form register -->
+               </div>
+               <!--Grid column-->
+            </div>
+            <!--Grid row-->
+         </section>
+         <!--Section: Content-->
+      </div>
+      <div mdbModal #frame="mdbModal" class="modal fade top" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog modal-notify modal-success" role="document">
+            <!--Content-->
+            <div class="modal-content">
+               <!--Header-->
+               <div class="modal-header">
+                  <p class="heading lead">Success</p>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+                  <span aria-hidden="true" class="white-text">&times;</span>
+                  </button>
+               </div>
+               <!--Body-->
+               <div class="modal-body">
+                  <div class="text-center">
+                     <h4 class="modal-title black-text">Form is submitted successfully.</h4>
+                  </div>
+               </div>
+            </div>
+            <!--/.Content-->
+         </div>
+      </div>
+      <div mdbModal #frame="mdbModal" class="modal fade top" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog modal-notify modal-danger" role="document">
+            <!--Content-->
+            <div class="modal-content">
+               <!--Header-->
+               <div class="modal-header">
+                  <p class="heading lead">Failed</p>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+                  <span aria-hidden="true" class="white-text">&times;</span>
+                  </button>
+               </div>
+               <!--Body-->
+               <div class="modal-body">
+                  <div class="text-center">
+                     <h4 class="modal-title black-text">Form is not submitted.</h4>
+                     <p>Check all the fields.</p>
+                  </div>
+               </div>
+            </div>
+            <!--/.Content-->
+         </div>
+      </div>
+      <!-- Registration for 2021 -->
+      <!--Contact Us-->
+      <section id="ContactUs" style="background-color:white;">
+         <div class="ContactUs">
+            <h1 class=" text-center black-text display-5 fsb " style="font-family: 'Hind', semi-bold;">CONTACT US</h1>
+            <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+         </div>
+         <div class="card" style="background-color:white;">
+         <div class="card-body">
+            <!--Google map-->
+            <div id="map-container-google-12" class="z-depth-1-half map-container-7" style="height: 100%">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.6368424592506!2d85.81673931422233!3d20.35661588636627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19093cc3e1974b%3A0x85a345e1f4fcce86!2sKIIT+Student+Activity+Center-KSAC!5e0!3m2!1sen!2sin!4v1552386222734" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <!--Buttons-->
+            <div class="row text-center" style="padding-top:20px;">
+               <div class="col-md-4">
+                  <h1 class=" text-center black-text fsb" style="font-family: 'Hind', semi-bold;font-size: 35px;">PHONE</h1>
+                  <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+                  <a href="tel:+ 91 8763762248">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#000'">+91 8763762248 (CEO)</p>
+                      </a>
+                     <a href="tel:+ 91 9415005881">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#000'">+91 9415005881 (LICENSEE)</p>
+                     </a>
+                     <a href="tel:+ 91 8017549130">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#000'">+91 8017549130 (CO - ORGANISER)</p>
+                     </a>	
+               </div>
+               <div class="col-md-4">
+                  <h1 class=" text-center black-text fsb " style="font-family: 'Hind', semi-bold;font-size: 35px;">ADDRESS</h1>
+                  <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+                  <p style="font-size:20px;margin-bottom:0px;"class="black-text">Student Activity Centre</p>
+                  <p style="font-size:20px;margin-bottom:0px;" class="black-text">Campus 13</p>
+                  <p style="font-size:20px;margin-bottom:0px;" class="black-text">KIIT (Deemed to be University)</p>
+                  <p style="font-size:20px;" class="black-text">Bhubaneswar, Odisha - 751024</p>
+               </div>
+               <div class="col-md-4">
+                  <h1 class=" text-center black-text fsb " style="font-family: 'Hind', semi-bold;font-size: 35px;">E-MAIL</h1>
+                  <hr width="6%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+                  <a href="https://mail.google.com/mail/u/0/#kiituniversitytedx@gmail.com" target="_blank">
+                     <p style="font-size:20px;color:#000" onMouseOver="this.style.color='#f44336'"onMouseOut="this.style.color='#000'">kiituniversitytedx@gmail.com</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Contact Us-->
+      <!-- Footer -->
+      <footer class="page-footer font-small" style="background-color:#262626;">
+         <div class="footer-copyright white-text text-center">
+            <p style="font-size:14px;margin-bottom: 0px;padding: 10px;">© Copyright 2021 TEDxKIITUniversity. Designed and Developed by Web Team. | This independent TEDx event is operated under license from TED.</p>
+         </div>
+      </footer>
+      <!-- Footer -->
+      <!-- SCRIPTS -->
+      <!-- JQuery -->
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <!-- Bootstrap tooltips -->
+      <script type="text/javascript" src="js/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript" src="js/mdb.min.js"></script>
+      <script>
+         $('a[href*="#"]')
+         // Remove links that don't actually link to anything
+         .not('[href="#"]')
+         .not('[href="#0"]')
+         .click(function(event) {
+         // On-page links
+         if (
+         location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+         && 
+         location.hostname == this.hostname
+         ) {
+         // Figure out element to scroll to
+         var target = $(this.hash);
+         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+         // Does a scroll target exist?
+         if (target.length) {
+         // Only prevent default if animation is actually gonna happen
+         event.preventDefault();
+         $('html, body').animate({
+           scrollTop: target.offset().top
+         }, 1000, function() {
+           // Callback after animation
+           // Must change focus!
+           var $target = $(target);
+           $target.focus();
+           if ($target.is(":focus")) { // Checking if the target was focused
+             return false;
+           } else {
+             $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+             $target.focus(); // Set focus again
+           };
+         });
+         }
+         }
+         });
+         
+         var btn = $('#button');
+         
+         $(window).scroll(function() {
+         if ($(window).scrollTop() > 300) {
+         btn.addClass('show');
+         } else {
+         btn.removeClass('show');
+         }
+         });
+         
+         btn.on('click', function(e) {
+         e.preventDefault();
+         $('html, body').animate({scrollTop:0}, '300');
+         });
+      </script> 
+      <script>
+         //  CLOSING REGISTRATION         
+         if(new Date().getTime() >= new Date('2022-05-06 15:00:00').getTime()){
+            document.getElementById("registrationform").style.display = "none"; 
+            document.getElementById("closingtext").style.display = "block";
+         } else{
+            document.getElementById("closingtext").style.display = "none";
+         }
+      </script>     
+      <!-- SCRIPTS -->
+      <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
+      <!-- Your custom scripts (optional) -->
+      <script src="index.js"></script>
+   </body>

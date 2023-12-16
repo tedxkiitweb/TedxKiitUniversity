@@ -1,0 +1,135 @@
+.form-control{
+    -moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+border:#f5f5f5;
+}
+
+
+body {
+  font-family: 'Hind', regular;
+  font-weight:600;
+}
+
+p {
+  font-family: 'Hind', regular;
+  font-weight: 400;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Hind', semi-bold;
+   font-weight:600;
+
+}
+
+h5,h6,h7 {
+  font-family: 'Hind', medium;
+   font-weight:500;
+
+}
+.progress-bar {
+  width: 0;
+  -webkit-animation: progress 1.5s ease-in-out forwards;
+          animation: progress 1.5s ease-in-out forwards;
+}
+.progress-bar .title {
+  opacity: 0;
+  -webkit-animation: show 0.35s forwards ease-in-out 0.5s;
+          animation: show 0.35s forwards ease-in-out 0.5s;
+}
+
+@-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+  .trapezoid {
+    border-bottom: 50px solid #2e2e2e;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 600px;
+  }
+
+  #about-intro{
+    height:200px;
+}
+  #about-intro{
+    background: url('../images/b.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+
+/* test codes here */
+
+#logo{
+  font-weight: bold;
+  color: red;
+  font-size: 25px;
+}
+
+.arrow
+{
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url('../images/arrow.svg');
+ background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

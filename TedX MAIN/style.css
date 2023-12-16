@@ -1,0 +1,219 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+	font-family: 'Hind';
+	scroll-behavior: smooth;
+}
+.modal-dialog
+{
+	margin-top:200px;
+}
+.dropbtn {
+    background-color: #000;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-weight:600;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 142px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*--//responsive--*/
+
+@media(max-width:320px)
+{
+	
+	#ted2019
+	{
+		margin:100px;
+	}
+	
+}
+@media(max-width:375px)
+{
+	
+	#ted2019
+	{
+		margin:10px;
+	}
+	
+}
+@media(max-width:414px)
+{
+	
+	
+	
+}
+@media(max-width:480px)
+{
+	
+	
+	
+}
+@media(max-width:568px)
+{
+	
+	
+	
+}
+@media(max-width:640px)
+{
+	
+	
+	
+}
+@media(max-width:736px)
+{
+	
+	
+	
+}
+@media(max-width:800px)
+{
+	
+	
+	
+}
+@media(max-width:900px)
+{
+	
+	
+	
+}
+@media(max-width:991px)
+{
+	
+	
+	
+}
+@media(max-width:1024px)
+{
+	
+	
+	
+}
+@media(max-width:1080px)
+{
+	
+	
+	
+}
+@media(max-width:1280px)
+{
+	
+	
+	
+}
+@media(max-width:1366px)
+{
+	
+	
+	
+}
+@media(max-width:1440px)
+{
+	
+	
+	
+}
+@media(max-width:1920px)
+{
+	
+	
+	
+}
+
+/*--//responsive--*/
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: red;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  .content {
+    width: 77%;
+    margin: 50px auto;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #6c767a;
+    line-height: 1.9;
+  }
+  @media (min-width: 500px) {
+    .content {
+      width: 43%;
+    }
+    #button {
+      margin: 30px;
+    }
+  }
+  .content h1 {
+    margin-bottom: -10px;
+    color: #03a9f4;
+    line-height: 1.5;
+  }
+  .content h3 {
+    font-style: italic;
+    color: #96a2a7;
+  }

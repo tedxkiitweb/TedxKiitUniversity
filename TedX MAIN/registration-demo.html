@@ -1,0 +1,842 @@
+
+  <!-- Registration for 2021 -->
+<div class="container py-5 z-depth-1" style="background-color:#242323;margin-bottom:3rem;box-shadow: 5px 5px 10px 5px rgba(255, 53, 71,0.16),0 5px 10px 0 rgba(255, 53, 71, 0.12) !important;">  
+
+    <!--Section: Content-->
+    <section class="px-md-4 mx-md-3 text-lg-left black-text">
+  
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+  
+        <!--Grid column-->
+        <div class="col-md-12">
+  
+          <!-- Default form register -->
+          <form id="registrationform" action="#!">
+  
+            <h1 class=" text-center white-text display-5 fsb " style="font-family: 'Hind', semi-bold;">REGISTRATION FORM</h1>
+            <hr width="16%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;margin-top: 0px;margin-bottom: 30px;"></hr>
+  
+            <div class="form-row">
+              <div class="col-md-4">
+                <!-- First name -->		
+        <label style="color:#fff">First Name *</label>				
+                <input type="text" class="form-control mb-4 firstname" placeholder="Enter Your First name"required>
+              </div>
+              <div class="col-md-4">
+                <!-- Middle name -->
+        <label style="color:#fff">Middle Name </label>				
+                <input type="text" class="form-control mb-4  middlename" placeholder="Enter Your Middle name">
+              </div>
+        <div class="col-md-4">
+                <!-- Last name -->
+        <label style="color:#fff">Last Name *</label>				
+                <input type="text" class="form-control mb-4 lastname" placeholder="Enter Your Last name" required>
+              </div>
+            </div>
+  
+            <!-- E-mail -->
+      <label style="color:#fff">E-Mail *</label>				
+            <input type="email" class="form-control mb-4 email" placeholder="Enter Your E-Mail" required>
+  
+            <!-- Phone number -->
+      <label style="color:#fff">Phone number * &nbsp;<small id="message"></small></label>
+            <input type="number" class="form-control mb-4 phone" id="mobile" placeholder="Enter Your Phone number" onkeyup="check(); return false;" required>   			
+      
+      <!-- University/College Name -->
+      <label style="color:#fff">University/College Name *</label>
+            <input type="text" class="form-control mb-4 collegename" placeholder="Enter Your University/College Name" required> 
+      
+      <!-- Stream -->
+      <label style="color:#fff">Stream *</label>
+            <input type="text" class="form-control mb-4 stream" placeholder="Enter Your Stream"required> 
+      
+      <!--Year -->
+      <label style="color:#fff">Year *</label>
+      <select class="browser-default custom-select mb-4" id="year" required>
+                <option value="" disabled selected>Please Choose Your Year</option>
+                <option value="1">1<sup>st</sup></option>
+        <option value="2">2<sup>nd</sup></option>
+        <option value="3">3<sup>rd</sup></option>
+        <option value="4">4<sup>th</sup></option>  
+            </select>
+      
+      <!-- Q1 -->
+      <div class="form-group">
+        <label style="color:#fff" for="exampleFormControlTextarea3">TEDxKIITUniversity 2021 is set with the theme, The Martian Spell. What is your interpretation of the theme? *</label>
+        <textarea class="form-control mb-4 q1" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+      </div>
+  
+      <!-- Q2 -->
+      <div class="form-group">
+        <label style="color:#fff" for="exampleFormControlTextarea3">Why are you interested in being a part of TEDxKIITUniversity 2021? *</label>
+        <textarea class="form-control mb-4 q2" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+      </div>
+  
+      <!-- Q3 -->
+      <div class="form-group">
+        <label style="color:#fff" for="exampleFormControlTextarea3">What do you expect to take back from this edition of TEDxKIITUniversity? *</label>
+        <textarea class="form-control mb-4 q3" id="exampleFormControlTextarea3" rows="7" placeholder="Write your answer here..." required></textarea>
+      </div>        
+  
+      <!-- Hear About Us -->
+      <label style="color:#fff">How did you hear about us ? *</label>
+            <select class="browser-default custom-select mb-4" id="hearaboutus" required>
+                <option value="" disabled selected>Please Choose a Option</option>
+                <option value="1">Social Media</option>
+                <option value="2">Workshop</option>
+                <option value="3">Word of Mouth</option>
+                <option value="4">Offline Poster and Flexes</option>  
+                <option value="5">Campus Ambassadors</option>  
+                <option value="6">Website</option>  
+                <option value="7">Others</option>  
+            </select>
+  
+            <!-- Register button -->
+            <button class="btn btn-info my-4 btn-block btn-dark btn-outline-danger" type="submit"><font size="4px"><b>Register</b></font></button>      
+  
+          </form>
+          <!-- Default form register -->
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </section>
+    <!--Section: Content-->
+  
+  </div>
+  
+  <!-- Modal content-->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <div class="modal-content" style="background-color:#000">
+          <div class="modal-header justify-content-center">
+            <h4 class="modal-title white-text">Form is submitted successfully.</h4>          
+          </div>          
+          <div class="modal-footer justify-content-center">
+            <a href="https://imjo.in/YfvFYN" target="_blank">
+              <button class="btn btn-info my-4 btn-dark btn-outline-danger" type="submit"><font size="4px"><b>PROCEED TO PAY</b></font></button>
+            </a>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <!-- Modal content-->
+  
+  <!-- Modal content-->
+    <div id="myModal1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <div class="modal-content" style="background-color:#000">
+          <div class="modal-header justify-content-center">
+      <h4 class="modal-title white-text">Form is not submitted.</h4>
+          </div>          
+          <div class="modal-body white-text justify-content-center">
+            <p>Check all the fields.</p>           
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <!-- Modal content-->
+  <!-- Registration for 2021 -->
+
+
+
+
+  
+<!-- Speakers of 2021 -->
+
+<section id="speakers2021" style="background-color:black;">
+	<div class="speakers2021 px-5 pt-5 py-5 animatedParent">
+	<h1 class=" text-center white-text display-5 fsb" style="font-family: 'Hind', semi-bold;">SPEAKERS</h1>
+	<hr width="8%" align="center" style="height:3px; border:none;color:#f44336;background-color:#f44336;">
+
+		<!-- Card deck --><!-- 1st row-->
+	<div class="card-deck">
+
+		<!-- Card -->
+		<div class="card mb-4" data-toggle="modal" data-target="#myModalAnand">
+
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top animated growIn" src="./images/AnandSwaroop.jpg" alt="Card image cap">
+				<a href="#!">
+					<div class="mask rgba-red-slight"></div>
+				</a>
+
+			<!-- Modal content-->
+			<div id="myModalAnand" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<h4 class="modal-title">Anand Swaroop</h4>
+				</div>
+				<div class="modal-body">
+					<p>Recipient of ‘Tenzing Norgay National Adventure Award’ and an Indian representative to the UIAA, the International Mountaineering and Climbing Federation (as member of the Access and Expedition Committee), he has a vast experience of adventures in his belt right from scaling five 8,000 metre towering peaks of Everest, Cho Oyu and Annapurna to undertaking a skiing reconnaissance expedition to  the South Pole. His unwavering resolution and fervour to go beyond and push the limits is inspiring for the masses. His story aptly reminds us that with grit and determination anyone can conquer mountains.
+			</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- Modal content-->
+
+			<!--Card content-->
+			<div class="card-body">
+
+				<!--Title-->
+				<center><h4 style="font-weight:500;">Anand Swaroop</h4></center>
+				<!--Text-->
+				<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Mountaineer</p></center>
+
+			</div>
+		</div>
+	</div>
+		<!-- Card -->
+
+		<!-- Card -->
+		<div class="card mb-4" data-toggle="modal" data-target="#myModalCristina">
+
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top animated growIn" src="./images/CristinaZenato.jpg" alt="Card image cap">
+				<a href="#!">
+					<div class="mask rgba-red-slight"></div>
+				</a>
+
+			<!-- Modal content-->
+			<div id="myModalCristina" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<h4 class="modal-title">Cristina Zenato</h4>
+				</div>
+				<div class="modal-body">
+					<p>As Cristina Zenato takes yet another dive into the oceans, she comes across the 'nature's masterpiece'- the sharks, flourishing around thanks to her more than 23 years of shark diving experience which oversaw removal of more than 300 hooks from the shark’s mouth. Her fascination and action of  preservation on the sharks has won applause from all sections of the people and got her featured in the BBC,CNN to Nat Geo. Her organization 'The People of the Water' is making an effort to contribute to the shark protection along with spreading awareness about the oceans.
+			</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- Modal content-->
+
+			<!--Card content-->
+			<div class="card-body">
+
+				<!--Title-->
+				<center><h4 style="font-weight:500;">Cristina Zenato</h4></center>
+				<!--Text-->
+				<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Shark Behaviorist</p></center>
+
+			</div>
+		</div>
+	</div>
+    <!-- Card -->
+    
+    						<!-- Card -->
+                <div class="card mb-4" data-toggle="modal" data-target="#myModalKallol">
+
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img class="card-img-top animated growIn" src="./images/Kallol Ghosh.jpg" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-red-slight"></div>
+                    </a>
+    
+                  <!-- Modal content-->
+                  <div id="myModalKallol" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+    
+                  <div class="modal-content">
+                    <div class="modal-header">
+    
+                      <h4 class="modal-title">Kallol Ghosh</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>With an unwavering will to provide a better living standard to the shunned HIV positive members of the society, Kallol Ghosh relentlessly works towards a fixed goal of empowering them. The founder of the OFFER organization, hand in hand with the UN, he seeks to prevent ostracism of these helpless innocent individuals.
+        <br />Watch him breaking all stereotypes and setting new standards for a better tomorrow.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+    
+                </div>
+                </div>
+                <!-- Modal content-->
+    
+                  <!--Card content-->
+                  <div class="card-body">
+    
+                    <!--Title-->
+                    <center><h4 style="font-weight:500;">Kallol Ghosh</h4></center>
+                    <!--Text-->
+                    <center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Social Entrepreneur</p></center>
+    
+                  </div>
+                </div>
+              </div>
+                <!-- Card -->
+    
+                <!-- Card -->
+                <div class="card mb-4" data-toggle="modal" data-target="#myModalAKSingh">
+    
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img class="card-img-top animated growIn" src="./images/Maj A.K. Singh.jpg" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-red-slight"></div>
+                    </a>
+    
+                  <!-- Modal content-->
+                  <div id="myModalAKSingh" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+    
+                  <div class="modal-content">
+                    <div class="modal-header">
+    
+                      <h4 class="modal-title">Maj A.K. Singh</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Being the first physically handicapped person to circumnavigate the globe on a yacht, AK Singh is no less than a symbol of strength and resilience. From standing first in merit in NDA and being awarded the President's Gold Medal to being the Sword of Honour at IMA, Maj AK Singh, KC was always destined for greatness.
+        <br />Watch him as he describes his real-life adventures that were not any less dangerous than those of the fictions
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+    
+                </div>
+                </div>
+                <!-- Modal content-->
+    
+                  <!--Card content-->
+                  <div class="card-body">
+    
+                    <!--Title-->
+                    <center><h4 style="font-weight:500;">Maj A.K. Singh</h4></center>
+                    <!--Text-->
+                    <center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Kirti Chakra</p></center>
+    
+                  </div>
+                </div>
+              </div>
+                <!-- Card -->
+
+	</div>
+
+		<!-- Card deck --><!-- 1st row-->
+
+
+
+				<!-- Card deck --><!-- 2nd row-->
+				<div class="card-deck">
+
+		<!-- Card -->
+		<div class="card mb-4" data-toggle="modal" data-target="#myModalPriyanka">
+
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top animated growIn" src="./images/Priyanka Srivastava.jpg" alt="Card image cap">
+				<a href="#!">
+					<div class="mask rgba-red-slight"></div>
+				</a>
+
+			<!-- Modal content-->
+			<div id="myModalPriyanka" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<h4 class="modal-title">Priyanka Srivastava</h4>
+				</div>
+				<div class="modal-body">
+					<p>Lucknow-born Priyanka Srivastava is a committed and diligent woman who has travelled miles to fulfill her childhood dream. With her job as a system engineer at NASA-JPL, she has worked on three NASA flight missions from design to operation process. She was a part of the recently landed mission of Mars 2020 Perseverance Rover operating and analyzing DMCA system of the flight . Her resolve and belief in reaching for the stars whilst working hard is inspiring en masse. With her persilience, she is poised to go far making India proud all along.
+			</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- Modal content-->
+
+			<!--Card content-->
+			<div class="card-body">
+
+				<!--Title-->
+				<center><h4 style="font-weight:500;">Priyanka Srivastava</h4></center>
+				<!--Text-->
+				<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">System Engineer at NASA (JPL)</p></center>
+
+			</div>
+		</div>
+	</div>
+    <!-- Card -->
+    
+    		<!-- Card -->
+		<div class="card mb-4" data-toggle="modal" data-target="#myModalOmesh">
+
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top animated growIn" src="./images/OMESH BHARTI.jpg" alt="Card image cap">
+				<a href="#!">
+					<div class="mask rgba-red-slight"></div>
+				</a>
+
+			<!-- Modal content-->
+			<div id="myModalOmesh" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<h4 class="modal-title">Dr. Omesh Kumar Bharti</h4>
+				</div>
+				<div class="modal-body">
+					<p>A field epidemiologist by profession and a leader in medical research. With his life-changing work on economical care for rabid dog bite, he has turned the table for thousands of people. Recognized by the WHO and the Govt. of India with the Padma Shri in 2019, he is everything a doctor and medical researcher aims to be.
+			</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- Modal content-->
+
+			<!--Card content-->
+			<div class="card-body">
+
+				<!--Title-->
+				<center><h4 style="font-weight:500;">Dr. Omesh Kumar Bharti</h4></center>
+				<!--Text-->
+				<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Epidemiologist</p></center>
+
+			</div>
+		</div>
+	</div>
+		<!-- Card -->
+
+            <!-- Card -->
+						<div class="card mb-4" data-toggle="modal" data-target="#myModalKaleida">
+
+							<!--Card image-->
+							<div class="view overlay">
+								<img class="card-img-top animated growIn" src="./images/KALEIDA.jpg" alt="Card image cap">
+								<a href="#!">
+									<div class="mask rgba-red-slight"></div>
+								</a>
+
+							<!-- Modal content-->
+							<div id="myModalKaleida" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+
+							<div class="modal-content">
+								<div class="modal-header">
+
+									<h4 class="modal-title">Kaleida - Cicely and Christina</h4>
+								</div>
+								<div class="modal-body">
+									<p>Transatlantic female electronic music duo Christina Wood and Cicely Goulder, became famous as Kaleida. Together they accumulated more than 101 million online streams. They are redefining creative dynamics of music and soundtracks like Picture You, Long Moon, Other Side, and many more. They said "Think of Me, I will never break your heart" in their song Think which got featured in the classic action thriller John Wick. Rightly said, for their audience never turned their faith away from them ever since.
+							</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+						</div>
+						<!-- Modal content-->
+
+							<!--Card content-->
+							<div class="card-body">
+
+								<!--Title-->
+								<center><h4 style="font-weight:500;">Kaleida - Cicely and Christina</h4></center>
+								<!--Text-->
+								<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Electronic Duo</p></center>
+
+							</div>
+						</div>
+					</div>
+						<!-- Card -->
+
+						<div class="card mb-4" data-toggle="modal" data-target="#myModalMadhushree">
+
+							<!--Card image-->
+							<div class="view overlay">
+								<img class="card-img-top animated growIn" src="./images/Madhushree Bhattacharya.jpg" alt="Card image cap">
+								<a href="#!">
+									<div class="mask rgba-red-slight"></div>
+								</a>
+
+							<!-- Modal content-->
+							<div id="myModalMadhushree" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+
+							<div class="modal-content">
+								<div class="modal-header">
+
+									<h4 class="modal-title">Madhushree Bhattacharya</h4>
+								</div>
+								<div class="modal-body">
+									<p>The voice behind popular Bollywood songs such as ‘Mahi Ve’ from ‘Kal Ho Na Ho’, 'Tum Bin Bataye' from ‘Rang De Basanti’ and 'Kabhi Neem Neem' from Yuva, she is well known for various multilingual hits as well. Madhushree got her name bestowed to her by none other than the renowned music composer A R Rahman From receiving the Sony Stardust Award as the Best Female Sensation (Playback Singer) to appearing as a judge on Zee Bangla Saregamapa (2017), her journey has been full of challenges, hardships and an unshattering will to overcome them.
+							</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+						</div>
+						<!-- Modal content-->
+
+							<!--Card content-->
+							<div class="card-body">
+
+								<!--Title-->
+								<center><h4 style="font-weight:500;">Madhushree Bhattacharya</h4></center>
+								<!--Text-->
+								<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Playback singer</p></center>
+
+							</div>
+						</div>
+					</div>
+						<!-- Card -->
+
+					 </div>
+					 <!-- Card deck --><!-- 2nd row-->
+
+
+
+					 		<!-- Card deck --><!-- 3rd row-->
+					 		<div class="card-deck">
+
+					 				<!-- Card -->
+					 				<div class="card mb-4" data-toggle="modal" data-target="#myModalPraveen">
+
+					 					<!--Card image-->
+					 					<div class="view overlay">
+					 						<img class="card-img-top animated growIn" src="./images/Praven Chauhan.jpg" alt="Card image cap">
+					 						<a href="#!">
+					 							<div class="mask rgba-red-slight"></div>
+					 						</a>
+
+					 					<!-- Modal content-->
+					 					<div id="myModalPraveen" class="modal fade" role="dialog">
+					 				<div class="modal-dialog">
+
+					 					<div class="modal-content">
+					 						<div class="modal-header">
+
+					 							<h4 class="modal-title">Praveen Chauhan</h4>
+					 						</div>
+					 						<div class="modal-body">
+					 							<p>The founder of the social enterprise MATR, Praveen Chauhan is a saviour of both the environment and the unemployed women of Gaya, Bihar. His initiative, the Happy Hands Project, was conceived with the goal of bringing sustainable employment to the local women by re-purposing discarded floral waste from the ancient Mahabodhi temple to make natural dyes for the Khadi products.
+					 							</p>
+					 						</div>
+					 						<div class="modal-footer">
+					 							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					 						</div>
+					 					</div>
+
+					 				</div>
+					 				</div>
+					 				<!-- Modal content-->
+
+					 					<!--Card content-->
+					 					<div class="card-body">
+
+					 						<!--Title-->
+					 						<center><h4 style="font-weight:500;">Praveen Chauhan</h4></center>
+					 						<!--Text-->
+					 						<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Environment Activist</p></center>
+
+					 					</div>
+					 				</div>
+					 			</div>
+					 				<!-- Card -->
+
+					 				<!-- Card -->
+					 				<div class="card mb-4" data-toggle="modal" data-target="#myModalUsha">
+
+					 					<!--Card image-->
+					 					<div class="view overlay">
+					 						<img class="card-img-top animated growIn" src="./images/Usharani Naik.jpg" alt="Card image cap">
+					 						<a href="#!">
+					 							<div class="mask rgba-red-slight"></div>
+					 						</a>
+
+					 					<!-- Modal content-->
+					 					<div id="myModalUsha" class="modal fade" role="dialog">
+					 				<div class="modal-dialog">
+
+					 					<div class="modal-content">
+					 						<div class="modal-header">
+
+					 							<h4 class="modal-title">Usha Rani Naik</h4>
+					 						</div>
+					 						<div class="modal-body">
+					 							<p>Usharani Naik is a woman with a strong sense of conviction and unparalleled determination rising from the Mayurbhanj district of Odisha. Her will and zeal to become financially independent is admirable as she spearheads the profitable Sabai handicrafts venture minting profit of Rs.19 lakh in 2019. The journey from employing 20 women to now empowering over 1000 tribal women and being recognized all over India emerges as a success story for rural development. Her vision for traditional arts of Odisha coupled with people participation is creating ripples in the entrepreneurship scene of India.
+					 							</p>
+					 						</div>
+					 						<div class="modal-footer">
+					 							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					 						</div>
+					 					</div>
+
+					 				</div>
+					 				</div>
+					 				<!-- Modal content-->
+
+					 					<!--Card content-->
+					 					<div class="card-body">
+
+					 						<!--Title-->
+					 						<center><h4 style="font-weight:500;">Usha Rani Naik</h4></center>
+					 						<!--Text-->
+					 						<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Sabai Grass Handicraft Designer</p></center>
+
+					 					</div>
+					 				</div>
+					 			</div>
+					 				<!-- Card -->
+
+									<div class="card mb-4" data-toggle="modal" data-target="#myModalDrJitender">
+
+										<!--Card image-->
+										<div class="view overlay">
+											<img class="card-img-top animated growIn" src="./images/Dr. Jitender Aggarwal.jpg" alt="Card image cap">
+											<a href="#!">
+												<div class="mask rgba-red-slight"></div>
+											</a>
+
+										<!-- Modal content-->
+										<div id="myModalDrJitender" class="modal fade" role="dialog">
+									<div class="modal-dialog">
+
+										<div class="modal-content">
+											<div class="modal-header">
+
+												<h4 class="modal-title">Dr. Jitender Aggarwal</h4>
+											</div>
+											<div class="modal-body">
+												<p>A pragmatist of the elite tier, who did not settle down after a major setback but stood up and continued fighting against the socially accepted standards of normal. Dr Aggarwal was working as a dentist when partial visual impairment put a stop on his medical career at the age of 32. He then founded the Sarthak Educational Trust that dedicated their work for thousands of Divyangs who went on to find a new life in the corporate world. The foundation brings employers and disabled people looking for jobs at a common place.
+										</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+
+									</div>
+									</div>
+									<!-- Modal content-->
+
+										<!--Card content-->
+										<div class="card-body">
+
+											<!--Title-->
+											<center><h4 style="font-weight:500;">Dr. Jitender Aggarwal</h4></center>
+											<!--Text-->
+											<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Educationist</p></center>
+
+										</div>
+									</div>
+								</div>
+									<!-- Card -->
+
+
+									<div class="card mb-4" data-toggle="modal" data-target="#myModalVarshita">
+
+										<!--Card image-->
+										<div class="view overlay">
+											<img class="card-img-top animated growIn" src="./images/VarshitaRamesh.jpg" alt="Card image cap">
+											<a href="#!">
+												<div class="mask rgba-red-slight"></div>
+											</a>
+
+										<!-- Modal content-->
+										<div id="myModalVarshita" class="modal fade" role="dialog">
+									<div class="modal-dialog">
+
+										<div class="modal-content">
+											<div class="modal-header">
+
+												<h4 class="modal-title">Varshita Ramesh</h4>
+											</div>
+											<div class="modal-body">
+												<p>Varshita Ramesh is a singer-songwriter from Bengaluru who with her passion for music and love for jazz is creating waves in the indie genre. Her debut song ‘Is it you?’ under the stage name Huyana has been covered in major platforms like Apple, Spotify, YouTube and SoundCloud. She has extensively toured for music festivals performing with the band of veteran AR Rahman , all at the tender age of 20 years. With her poised demeanour and strings of achievements, she is bound to be an upcoming force to reckon with in the world of independent music.
+										</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+
+									</div>
+									</div>
+									<!-- Modal content-->
+
+										<!--Card content-->
+										<div class="card-body">
+
+											<!--Title-->
+											<center><h4 style="font-weight:500;">Varshita Ramesh</h4></center>
+											<!--Text-->
+											<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Singer - Songwriter</p></center>
+
+										</div>
+									</div>
+								</div>
+									<!-- Card -->
+
+
+
+					 			 </div>
+					 			 <!-- Card deck --><!-- 3rd row-->
+
+
+		<!-- Card deck --><!-- 4th row-->
+		<div class="card-deck">
+
+				<!-- Card -->
+				<div class="card mb-4" data-toggle="modal" data-target="#myModalPranshu">
+
+					<!--Card image-->
+					<div class="view overlay">
+						<img class="card-img-top animated growIn" src="./images/PranshuChaturLal.jpg" alt="Card image cap">
+						<a href="#!">
+							<div class="mask rgba-red-slight"></div>
+						</a>
+
+					<!-- Modal content-->
+					<div id="myModalPranshu" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+
+					<div class="modal-content">
+						<div class="modal-header">
+
+							<h4 class="modal-title">Pranshu Chatur Lal</h4>
+						</div>
+						<div class="modal-body">
+							<p>With every beat of his Tabla, Pranshu Chatur Lal is charming his way into the hearts of his audience all over the world.Coming from a famed household of legendary tabla wizards,he has carved his own unique path with intricate rhythm patterns. A recipient of ‘Tabla Ratna Award’, his strings of achievements include accompanying noted musicians like flute maestro Pt. Hari Prasad Chaurasia and sarod legend Ustad Amjad Ali Khan, to name a few and recently performing for Hon'ble Prime Minister Sh. Narendra Modi & President of Sri Lanka His Excellency Mr. Gotabaya Rajapaska.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+
+				</div>
+				</div>
+				<!-- Modal content-->
+
+					<!--Card content-->
+					<div class="card-body">
+
+						<!--Title-->
+						<center><h4 style="font-weight:500;">Pranshu Chatur Lal</h4></center>
+						<!--Text-->
+						<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Percussionist</p></center>
+
+					</div>
+				</div>
+			</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="card mb-4" data-toggle="modal" data-target="#myModalWalter">
+
+					<!--Card image-->
+					<div class="view overlay">
+						<img class="card-img-top animated growIn" src="./images/Walter volpatto.jpg" alt="Card image cap">
+						<a href="#!">
+							<div class="mask rgba-red-slight"></div>
+						</a>
+
+					<!-- Modal content-->
+					<div id="myModalWalter" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+
+					<div class="modal-content">
+						<div class="modal-header">
+
+							<h4 class="modal-title">Walter Volpatto</h4>
+						</div>
+						<div class="modal-body">
+							<p>A man with vision and at the pinnacle of creativity, Walter Volpatto’s industry credits  include  2019 Academy-Award Best Picture Winner Green Book, directed by Peter Farrelly; Dunkirk, directed by Christopher Nolan; Star Wars: The Last Jedi, directed by Rian Johnson; Independence Day: Resurgence, directed by Roland Emmerich; Bad Moms, directed by Jon Lucas and Scott Moore; and, most recently, Amazon Studios’ critically-acclaimed series Homecoming.
+<br />Coming from a family of farmers, he had to fight tooth and nail against the vagaries of life before he could make it big in the industry. The 15-year industry veteran has been appointed to  the leadership of The Colorist Society International as a Fellow and is a member of Academy Of Motion Picture Arts and Sciences.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+
+				</div>
+				</div>
+				<!-- Modal content-->
+
+					<!--Card content-->
+					<div class="card-body">
+
+						<!--Title-->
+						<center><h4 style="font-weight:500;">Walter Volpatto</h4></center>
+						<!--Text-->
+						<center><p class="card-text" style="font-style: oblique;font-size: 20px;font-weight:200;">Senior Colorist<br />Company 3 Hollywood</p></center>
+
+					</div>
+				</div>
+			</div>
+				<!-- Card -->
+
+				<!-- Card -->
+			   <div class="card mb-4" style="background:black">
+
+
+			   </div>
+			   <!-- Card -->
+			   <!-- Card -->
+			   <div class="card mb-4" style="background:black">
+
+
+			   </div>
+			   <!-- Card -->
+
+			 </div>
+			 <!-- Card deck --><!-- 4th row-->
+
+
+	</div>
+
+
+</section>
+
+<!-- Speakers of 2021 -->
